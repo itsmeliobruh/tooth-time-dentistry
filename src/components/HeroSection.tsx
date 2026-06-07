@@ -49,7 +49,7 @@ export default function HeroSection() {
           >
             <motion.div variants={fadeInUp}>
               <span className="label-text inline-block bg-primary/10 text-primary font-semibold text-sm px-3 py-1 rounded-full mb-4">
-                Hartford's Pediatric Dental Team
+                Hartford&apos;s Pediatric Dental Team
               </span>
             </motion.div>
 
@@ -57,7 +57,7 @@ export default function HeroSection() {
               variants={fadeInUp}
               className="font-display font-bold text-4xl sm:text-5xl lg:text-6xl text-text-dark leading-tight mb-5"
             >
-              Children's Dentist in Hartford, CT —{' '}
+              Children&apos;s Dentist in Hartford, CT —{' '}
               <span className="text-primary italic">Big Smiles</span> Start Here
             </motion.h1>
 

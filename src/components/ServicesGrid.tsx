@@ -65,7 +65,7 @@ export default function ServicesGrid() {
             Pediatric Dental Services in Hartford, CT
           </h2>
           <p className="font-body text-text-body text-lg max-w-2xl mx-auto">
-            From routine cleanings to specialized care, we offer a full range of dental services designed with children's comfort and health in mind.
+            From routine cleanings to specialized care, we offer a full range of dental services designed with children&apos;s comfort and health in mind.
           </p>
         </motion.div>
 
