@@ -13,18 +13,19 @@ html {
 }
 
 body {
-  font-family: 'Nunito', sans-serif;
+  font-family: 'Outfit', sans-serif;
   color: #3D2F4F;
   background: #ffffff;
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Outfit', sans-serif;
   color: #1A0E26;
 }
 
 .label-text {
-  font-family: 'Space Grotesk', sans-serif;
+  font-family: 'Outfit', sans-serif;
+  font-weight: 600;
 }
 
 @layer utilities {

@@ -1,26 +1,14 @@
 import type { Metadata } from 'next'
-import { Poppins, Nunito, Space_Grotesk } from 'next/font/google'
+import { Outfit } from 'next/font/google'
 import './globals.css'
 import Nav from '@/components/Nav'
 import Footer from '@/components/Footer'
 import MobileCallBar from '@/components/MobileCallBar'
 
-const poppins = Poppins({
-  weight: ['400', '700'],
+const outfit = Outfit({
+  weight: ['400', '500', '600', '700'],
   subsets: ['latin'],
-  variable: '--font-poppins',
-  display: 'swap',
-})
-
-const nunito = Nunito({
-  subsets: ['latin'],
-  variable: '--font-nunito',
-  display: 'swap',
-})
-
-const spaceGrotesk = Space_Grotesk({
-  subsets: ['latin'],
-  variable: '--font-space',
+  variable: '--font-outfit',
   display: 'swap',
 })
 
@@ -124,7 +112,7 @@ export default function RootLayout({
   return (
     <html
       lang="en"
-      className={`${poppins.variable} ${nunito.variable} ${spaceGrotesk.variable}`}
+      className={`${outfit.variable}`}
     >
       <head>
         <script

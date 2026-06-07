@@ -20,9 +20,9 @@ const config: Config = {
         muted: '#7A6A8A',
       },
       fontFamily: {
-        display: ['Poppins', 'sans-serif'],
-        body: ['Nunito', 'sans-serif'],
-        mono: ['Space Grotesk', 'sans-serif'],
+        display: ['Outfit', 'sans-serif'],
+        body: ['Outfit', 'sans-serif'],
+        mono: ['Outfit', 'sans-serif'],
       },
     },
   },
