@@ -55,10 +55,10 @@ export default function HeroSection() {
 
             <motion.h1
               variants={fadeInUp}
-              className="font-display text-4xl sm:text-5xl lg:text-6xl text-text-dark leading-tight mb-5"
+              className="font-display font-bold text-4xl sm:text-5xl lg:text-6xl text-text-dark leading-tight mb-5"
             >
               Children's Dentist in Hartford, CT —{' '}
-              <span className="text-primary">Big Smiles</span> Start Here
+              <span className="text-primary italic">Big Smiles</span> Start Here
             </motion.h1>
 
             <motion.p
