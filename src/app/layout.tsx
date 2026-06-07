@@ -1,12 +1,12 @@
 import type { Metadata } from 'next'
-import { Fredoka_One, Nunito, Space_Grotesk } from 'next/font/google'
+import { Fredoka, Nunito, Space_Grotesk } from 'next/font/google'
 import './globals.css'
 import Nav from '@/components/Nav'
 import Footer from '@/components/Footer'
 import MobileCallBar from '@/components/MobileCallBar'
 
-const fredokaOne = Fredoka_One({
-  weight: '400',
+const fredokaOne = Fredoka({
+  weight: ['400', '700'],
   subsets: ['latin'],
   variable: '--font-fredoka',
   display: 'swap',
