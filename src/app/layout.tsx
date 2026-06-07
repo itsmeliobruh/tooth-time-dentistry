@@ -1,14 +1,14 @@
 import type { Metadata } from 'next'
-import { Fredoka, Nunito, Space_Grotesk } from 'next/font/google'
+import { Poppins, Nunito, Space_Grotesk } from 'next/font/google'
 import './globals.css'
 import Nav from '@/components/Nav'
 import Footer from '@/components/Footer'
 import MobileCallBar from '@/components/MobileCallBar'
 
-const fredokaOne = Fredoka({
+const poppins = Poppins({
   weight: ['400', '700'],
   subsets: ['latin'],
-  variable: '--font-fredoka',
+  variable: '--font-poppins',
   display: 'swap',
 })
 
@@ -124,7 +124,7 @@ export default function RootLayout({
   return (
     <html
       lang="en"
-      className={`${fredokaOne.variable} ${nunito.variable} ${spaceGrotesk.variable}`}
+      className={`${poppins.variable} ${nunito.variable} ${spaceGrotesk.variable}`}
     >
       <head>
         <script

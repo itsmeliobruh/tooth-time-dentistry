@@ -20,7 +20,7 @@ const config: Config = {
         muted: '#7A6A8A',
       },
       fontFamily: {
-        display: ['Fredoka One', 'cursive'],
+        display: ['Poppins', 'sans-serif'],
         body: ['Nunito', 'sans-serif'],
         mono: ['Space Grotesk', 'sans-serif'],
       },
