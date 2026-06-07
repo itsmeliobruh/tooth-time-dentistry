@@ -31,7 +31,7 @@ const services = [
     id: 'preventive',
     icon: '🦷',
     title: 'Preventive Cleanings & Exams',
-    image: 'https://images.unsplash.com/photo-1612349317150-e413f6a5b16d?w=800&q=80',
+    image: 'https://images.unsplash.com/photo-1681939282741-9ace0a227977?w=800&q=80',
     imageAlt: 'Dental professional at Tooth Time Dentistry Hartford',
     content: `Preventive dental care is the cornerstone of lifelong oral health, and at Tooth Time Dentistry in Hartford, we are passionate about helping your child build healthy habits from an early age. During each routine visit, one of our friendly and experienced hygienists will gently remove plaque and tartar buildup from your child's teeth — deposits that cannot be removed by brushing and flossing alone.
 
@@ -61,7 +61,7 @@ Most insurance plans, including HUSKY Health, cover routine preventive cleanings
     id: 'xrays',
     icon: '🔬',
     title: 'Dental X-Rays',
-    image: 'https://images.unsplash.com/photo-1606811841689-23dfddce3e95?w=800&q=80',
+    image: 'https://plus.unsplash.com/premium_photo-1681997228576-97a401398bf5?w=800&q=80',
     imageAlt: 'Modern dental office equipment at Tooth Time Dentistry',
     content: `Dental X-rays are an essential diagnostic tool that allows Dr. Lim to see what cannot be detected with the naked eye. At Tooth Time Dentistry in Hartford, we use modern digital radiography technology that produces high-quality images while emitting significantly less radiation than traditional film X-rays — making them extremely safe for children.
 
@@ -91,7 +91,7 @@ HUSKY Health and most major dental insurance plans cover diagnostic X-rays. Plea
     id: 'fillings',
     icon: '✨',
     title: 'Tooth Fillings',
-    image: 'https://images.unsplash.com/photo-1588776814546-1ffbb172754d?w=800&q=80',
+    image: 'https://plus.unsplash.com/premium_photo-1681966964991-c91687dc735f?w=800&q=80',
     imageAlt: 'Child comfortable at dentist receiving tooth filling',
     content: `If your child has developed a cavity, prompt treatment with a tooth filling is essential to stop the decay from spreading and restore the tooth to full health and function. At Tooth Time Dentistry in Hartford, we use tooth-colored composite resin fillings that blend seamlessly with your child's natural teeth — no silver amalgam, no obvious metal fillings.
 
@@ -123,7 +123,7 @@ Call (860) 263-7791 to schedule a filling appointment at our Hartford, CT office
     id: 'extractions',
     icon: '🔧',
     title: 'Tooth Extractions',
-    image: 'https://images.unsplash.com/photo-1617791160536-598cf32026fb?w=800&q=80',
+    image: 'https://images.unsplash.com/photo-1619236233405-bb5d430f0620?w=800&q=80',
     imageAlt: 'Kids smiling after dental treatment at Tooth Time Dentistry',
     content: `Sometimes a tooth needs to be removed to protect your child's overall oral health. At Tooth Time Dentistry in Hartford, CT, we always make extractions a last resort — we explore every possible option to save a tooth before recommending removal. However, when extraction is necessary, you can trust our experienced team to perform the procedure with maximum gentleness and care.
 
@@ -155,7 +155,7 @@ We accept HUSKY Health and most major dental insurance for tooth extractions. Ca
     id: 'nitrous',
     icon: '😊',
     title: 'Nitrous Oxide Sedation',
-    image: 'https://images.unsplash.com/photo-1536640712-4d4c36ff0e4e?w=800&q=80',
+    image: 'https://images.unsplash.com/photo-1626736985932-c0df2ae07a2e?w=800&q=80',
     imageAlt: 'Parent with child at dental office, relaxed and comfortable',
     content: `Dental anxiety affects many children, and at Tooth Time Dentistry in Hartford, we take this seriously. Nitrous oxide — commonly known as laughing gas — is one of the safest, most effective tools we have for helping anxious children relax during dental procedures. We are proud to offer this service to make every visit as comfortable as possible.
 
@@ -185,7 +185,7 @@ We will always discuss nitrous oxide with you before using it and answer any que
     id: 'special-needs',
     icon: '💜',
     title: 'Special Needs Dentistry',
-    image: 'https://images.unsplash.com/photo-1511895426328-dc8714191011?w=1200&q=80',
+    image: 'https://images.unsplash.com/photo-1593183230686-69876b0cb240?w=1200&q=80',
     imageAlt: 'Diverse children receiving compassionate dental care in Hartford CT',
     content: `Every child deserves excellent dental care — including those with physical, developmental, cognitive, and behavioral special needs. At Tooth Time Dentistry in Hartford, CT, Dr. Lim and her team have dedicated years to developing specialized skills and compassionate approaches that make dental care accessible and comfortable for children with a wide range of conditions.
 

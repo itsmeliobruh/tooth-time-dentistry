@@ -24,7 +24,7 @@ export const metadata: Metadata = {
     url: 'https://toothtimect.com',
     images: [
       {
-        url: 'https://images.unsplash.com/photo-1529156069898-49953e39b3ac?w=1200&q=80',
+        url: 'https://images.unsplash.com/photo-1631051103633-24959376b92d?w=1200&q=80',
         width: 1200,
         height: 630,
         alt: "Tooth Time Dentistry — Hartford Children's Dentist",

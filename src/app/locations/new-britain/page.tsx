@@ -80,7 +80,7 @@ export default function NewBritainPage() {
             </a>
           </div>
           <div className="relative h-96 rounded-2xl overflow-hidden shadow-xl">
-            <Image src="https://images.unsplash.com/photo-1511895426328-dc8714191011?w=1200&q=80" alt="New Britain CT children at Tooth Time Dentistry Hartford" fill className="object-cover" />
+            <Image src="https://images.unsplash.com/photo-1593183230686-69876b0cb240?w=1200&q=80" alt="New Britain CT children at Tooth Time Dentistry Hartford" fill className="object-cover" />
           </div>
         </div>
       </section>

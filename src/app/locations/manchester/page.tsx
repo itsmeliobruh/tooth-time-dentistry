@@ -80,7 +80,7 @@ export default function ManchesterPage() {
             </a>
           </div>
           <div className="relative h-96 rounded-2xl overflow-hidden shadow-xl">
-            <Image src="https://images.unsplash.com/photo-1617791160536-598cf32026fb?w=800&q=80" alt="Manchester CT children smiling at Tooth Time Dentistry" fill className="object-cover" />
+            <Image src="https://images.unsplash.com/photo-1619236233405-bb5d430f0620?w=800&q=80" alt="Manchester CT children smiling at Tooth Time Dentistry" fill className="object-cover" />
           </div>
         </div>
       </section>

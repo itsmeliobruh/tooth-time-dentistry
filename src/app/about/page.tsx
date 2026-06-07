@@ -78,7 +78,7 @@ export default function AboutPage() {
             </div>
             <div className="relative h-[500px] rounded-3xl overflow-hidden shadow-2xl">
               <Image
-                src="https://images.unsplash.com/photo-1612349317150-e413f6a5b16d?w=800&q=80"
+                src="https://images.unsplash.com/photo-1681939282741-9ace0a227977?w=800&q=80"
                 alt="Dr. Lim, pediatric dentist at Tooth Time Dentistry Hartford CT"
                 fill
                 className="object-cover"
@@ -114,7 +114,7 @@ export default function AboutPage() {
             </div>
             <div className="lg:order-1 relative h-[500px] rounded-3xl overflow-hidden shadow-2xl">
               <Image
-                src="https://images.unsplash.com/photo-1609840114035-3c981b782dfe?w=800&q=80"
+                src="https://plus.unsplash.com/premium_photo-1663958034026-2d6311bc344c?w=800&q=80"
                 alt="Parent and child at Tooth Time Dentistry Hartford enjoying their visit"
                 fill
                 className="object-cover"
@@ -136,7 +136,7 @@ export default function AboutPage() {
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
             <div className="relative h-64 rounded-2xl overflow-hidden shadow-lg">
               <Image
-                src="https://images.unsplash.com/photo-1606811841689-23dfddce3e95?w=800&q=80"
+                src="https://plus.unsplash.com/premium_photo-1681997228576-97a401398bf5?w=800&q=80"
                 alt="Tooth Time Dentistry office interior Hartford CT"
                 fill
                 className="object-cover"
@@ -144,7 +144,7 @@ export default function AboutPage() {
             </div>
             <div className="relative h-64 rounded-2xl overflow-hidden shadow-lg">
               <Image
-                src="https://images.unsplash.com/photo-1588776814546-1ffbb172754d?w=800&q=80"
+                src="https://plus.unsplash.com/premium_photo-1681966964991-c91687dc735f?w=800&q=80"
                 alt="Dental treatment room at Tooth Time Dentistry"
                 fill
                 className="object-cover"
@@ -152,7 +152,7 @@ export default function AboutPage() {
             </div>
             <div className="relative h-64 rounded-2xl overflow-hidden shadow-lg">
               <Image
-                src="https://images.unsplash.com/photo-1617791160536-598cf32026fb?w=800&q=80"
+                src="https://images.unsplash.com/photo-1619236233405-bb5d430f0620?w=800&q=80"
                 alt="Happy children at Tooth Time Dentistry Hartford"
                 fill
                 className="object-cover"

@@ -122,7 +122,7 @@ export default function HartfordPage() {
             </a>
           </div>
           <div className="relative h-96 rounded-2xl overflow-hidden shadow-xl">
-            <Image src="https://images.unsplash.com/photo-1529156069898-49953e39b3ac?w=1200&q=80" alt="Hartford children's dentist Tooth Time Dentistry" fill className="object-cover" />
+            <Image src="https://images.unsplash.com/photo-1631051103633-24959376b92d?w=1200&q=80" alt="Hartford children's dentist Tooth Time Dentistry" fill className="object-cover" />
           </div>
         </div>
       </section>
