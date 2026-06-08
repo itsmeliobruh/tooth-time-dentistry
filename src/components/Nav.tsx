@@ -35,8 +35,8 @@ export default function Nav() {
     >
       <div className="max-w-7xl mx-auto px-4 flex items-center justify-between">
         {/* Logo */}
-        <Link href="/" className="flex items-center gap-2">
-          <div className="relative w-10 h-10">
+        <Link href="/" className="flex items-center gap-3">
+          <div className="relative w-14 h-14">
             <Image
               src="/toothlogo_clean.png"
               alt="Tooth Time Dentistry Logo"
@@ -48,9 +48,9 @@ export default function Nav() {
               }}
             />
           </div>
-          <span className="font-display text-xl text-primary leading-tight">
+          <span className="font-display font-bold text-2xl text-primary leading-tight">
             Tooth Time<br />
-            <span className="text-text-dark text-base">Dentistry</span>
+            <span className="font-display font-bold text-lg text-text-dark">Dentistry</span>
           </span>
         </Link>
 
