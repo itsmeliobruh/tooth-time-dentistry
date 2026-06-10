@@ -152,8 +152,8 @@ export default function AboutPage() {
             </div>
             <div className="relative h-64 rounded-2xl overflow-hidden shadow-lg">
               <Image
-                src="https://images.unsplash.com/photo-1619236233405-bb5d430f0620?w=800&q=80"
-                alt="Happy children at Tooth Time Dentistry Hartford"
+                src="https://images.unsplash.com/photo-1565090568947-7293970ba471?w=800&q=80"
+                alt="Female dentist treating a patient at Tooth Time Dentistry Hartford CT"
                 fill
                 className="object-cover"
               />
