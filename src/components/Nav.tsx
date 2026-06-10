@@ -5,18 +5,28 @@ import Link from 'next/link'
 import Image from 'next/image'
 import { motion, AnimatePresence } from 'framer-motion'
 
+const navServices = [
+  { label: 'Preventive Cleanings', href: '/services/preventive-cleanings' },
+  { label: 'Dental X-Rays', href: '/services/dental-x-rays' },
+  { label: 'Tooth Fillings', href: '/services/tooth-fillings' },
+  { label: 'Tooth Extractions', href: '/services/tooth-extractions' },
+  { label: 'Nitrous Oxide', href: '/services/nitrous-oxide' },
+  { label: 'Special Needs Dentistry', href: '/services/special-needs-dentistry' },
+]
+
 const serviceAreas = [
-  { label: 'Hartford', href: '/serviceAreas/hartford' },
-  { label: 'East Hartford', href: '/serviceAreas/east-hartford' },
-  { label: 'Manchester', href: '/serviceAreas/manchester' },
-  { label: 'West Hartford', href: '/serviceAreas/west-hartford' },
-  { label: 'New Britain', href: '/serviceAreas/new-britain' },
+  { label: 'Hartford', href: '/locations/hartford' },
+  { label: 'East Hartford', href: '/locations/east-hartford' },
+  { label: 'Manchester', href: '/locations/manchester' },
+  { label: 'West Hartford', href: '/locations/west-hartford' },
+  { label: 'New Britain', href: '/locations/new-britain' },
 ]
 
 export default function Nav() {
   const [scrolled, setScrolled] = useState(false)
   const [menuOpen, setMenuOpen] = useState(false)
-  const [locationOpen, setLocationOpen] = useState(false)
+  const [servicesOpen, setServicesOpen] = useState(false)
+  const [areasOpen, setAreasOpen] = useState(false)
 
   useEffect(() => {
     const handleScroll = () => setScrolled(window.scrollY > 80)
@@ -55,23 +65,58 @@ export default function Nav() {
           <Link href="/" className="font-body font-semibold text-text-body hover:text-primary transition-colors">
             Home
           </Link>
-          <Link href="/services" className="font-body font-semibold text-text-body hover:text-primary transition-colors">
-            Services
-          </Link>
+
+          {/* Services Dropdown */}
+          <div className="relative" onMouseEnter={() => setServicesOpen(true)} onMouseLeave={() => setServicesOpen(false)}>
+            <button className="font-body font-semibold text-text-body hover:text-primary transition-colors flex items-center gap-1">
+              Services
+              <svg className={`w-4 h-4 transition-transform ${servicesOpen ? 'rotate-180' : ''}`} fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
+              </svg>
+            </button>
+            <AnimatePresence>
+              {servicesOpen && (
+                <motion.div
+                  initial={{ opacity: 0, y: -8 }}
+                  animate={{ opacity: 1, y: 0 }}
+                  exit={{ opacity: 0, y: -8 }}
+                  transition={{ duration: 0.15 }}
+                  className="absolute top-full left-0 mt-1 w-56 bg-white rounded-xl shadow-xl border border-gray-100 overflow-hidden"
+                >
+                  <Link
+                    href="/services"
+                    className="block px-4 py-2.5 font-body font-semibold text-primary bg-primary/5 hover:bg-primary/10 transition-colors text-sm border-b border-gray-100"
+                  >
+                    All Services →
+                  </Link>
+                  {navServices.map((s) => (
+                    <Link
+                      key={s.href}
+                      href={s.href}
+                      className="block px-4 py-2.5 font-body text-text-body hover:bg-bg-pearl hover:text-primary transition-colors text-sm"
+                    >
+                      {s.label}
+                    </Link>
+                  ))}
+                </motion.div>
+              )}
+            </AnimatePresence>
+          </div>
+
           <Link href="/location" className="font-body font-semibold text-text-body hover:text-primary transition-colors">
             Location
           </Link>
 
           {/* Service Areas Dropdown */}
-          <div className="relative" onMouseEnter={() => setLocationOpen(true)} onMouseLeave={() => setLocationOpen(false)}>
+          <div className="relative" onMouseEnter={() => setAreasOpen(true)} onMouseLeave={() => setAreasOpen(false)}>
             <button className="font-body font-semibold text-text-body hover:text-primary transition-colors flex items-center gap-1">
               Service Areas
-              <svg className={`w-4 h-4 transition-transform ${locationOpen ? 'rotate-180' : ''}`} fill="none" viewBox="0 0 24 24" stroke="currentColor">
+              <svg className={`w-4 h-4 transition-transform ${areasOpen ? 'rotate-180' : ''}`} fill="none" viewBox="0 0 24 24" stroke="currentColor">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
               </svg>
             </button>
             <AnimatePresence>
-              {locationOpen && (
+              {areasOpen && (
                 <motion.div
                   initial={{ opacity: 0, y: -8 }}
                   animate={{ opacity: 1, y: 0 }}
@@ -79,13 +124,13 @@ export default function Nav() {
                   transition={{ duration: 0.15 }}
                   className="absolute top-full left-0 mt-1 w-48 bg-white rounded-xl shadow-xl border border-gray-100 overflow-hidden"
                 >
-                  {serviceAreas.map((loc) => (
+                  {serviceAreas.map((area) => (
                     <Link
-                      key={loc.href}
-                      href={loc.href}
+                      key={area.href}
+                      href={area.href}
                       className="block px-4 py-2.5 font-body text-text-body hover:bg-bg-pearl hover:text-primary transition-colors text-sm"
                     >
-                      {loc.label}, CT
+                      {area.label}, CT
                     </Link>
                   ))}
                 </motion.div>
@@ -133,21 +178,39 @@ export default function Nav() {
           >
             <div className="px-4 py-4 flex flex-col gap-3">
               <Link href="/" className="font-body font-semibold text-text-body py-2 border-b border-gray-100" onClick={() => setMenuOpen(false)}>Home</Link>
-              <Link href="/services" className="font-body font-semibold text-text-body py-2 border-b border-gray-100" onClick={() => setMenuOpen(false)}>Services</Link>
-              <Link href="/location" className="font-body font-semibold text-text-body py-2 border-b border-gray-100" onClick={() => setMenuOpen(false)}>Location</Link>
+
+              {/* Mobile Services */}
               <div>
-                <p className="font-body font-bold text-text-dark py-2">Service Areas</p>
-                {serviceAreas.map((loc) => (
+                <Link href="/services" className="font-body font-bold text-text-dark py-2 block border-b border-gray-100" onClick={() => setMenuOpen(false)}>Services</Link>
+                {navServices.map((s) => (
                   <Link
-                    key={loc.href}
-                    href={loc.href}
+                    key={s.href}
+                    href={s.href}
                     className="block pl-4 py-1.5 font-body text-text-body text-sm hover:text-primary"
                     onClick={() => setMenuOpen(false)}
                   >
-                    {loc.label}, CT
+                    {s.label}
                   </Link>
                 ))}
               </div>
+
+              <Link href="/location" className="font-body font-semibold text-text-body py-2 border-t border-b border-gray-100" onClick={() => setMenuOpen(false)}>Location</Link>
+
+              {/* Mobile Service Areas */}
+              <div>
+                <p className="font-body font-bold text-text-dark py-2">Service Areas</p>
+                {serviceAreas.map((area) => (
+                  <Link
+                    key={area.href}
+                    href={area.href}
+                    className="block pl-4 py-1.5 font-body text-text-body text-sm hover:text-primary"
+                    onClick={() => setMenuOpen(false)}
+                  >
+                    {area.label}, CT
+                  </Link>
+                ))}
+              </div>
+
               <Link href="/blog" className="font-body font-semibold text-text-body py-2 border-t border-gray-100" onClick={() => setMenuOpen(false)}>Blog</Link>
               <Link href="/about" className="font-body font-semibold text-text-body py-2 border-b border-gray-100" onClick={() => setMenuOpen(false)}>About</Link>
               <a
