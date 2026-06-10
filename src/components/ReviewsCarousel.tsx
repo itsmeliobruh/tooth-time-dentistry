@@ -108,9 +108,9 @@ export default function ReviewsCarousel() {
       <div className="max-w-7xl mx-auto px-4 mt-10 text-center">
         <a
           href="tel:+18602637791"
-          className="inline-flex items-center gap-2 bg-primary hover:bg-primary-dark text-white font-body font-bold px-8 py-4 rounded-full text-lg transition-colors"
+          className="inline-flex items-center justify-center gap-2 bg-primary hover:bg-primary-dark text-white font-body font-bold px-6 py-4 rounded-full text-base sm:text-lg transition-colors w-full sm:w-auto max-w-xs sm:max-w-none mx-auto"
         >
-          📞 Join Our Happy Families — Call (860) 263-7791
+          📞 Call (860) 263-7791
         </a>
       </div>
     </section>

@@ -90,9 +90,9 @@ export default function ServicesPage() {
           </p>
           <a
             href="tel:+18602637791"
-            className="inline-flex items-center gap-2 bg-primary hover:bg-primary-dark text-white font-body font-bold px-8 py-4 rounded-full transition-colors label-text"
+            className="inline-flex items-center justify-center gap-2 bg-primary hover:bg-primary-dark text-white font-body font-bold px-6 py-4 rounded-full transition-colors label-text w-full sm:w-auto max-w-xs sm:max-w-none mx-auto"
           >
-            📞 (860) 263-7791 — Verify My Coverage
+            📞 Call (860) 263-7791
           </a>
         </div>
       </section>
