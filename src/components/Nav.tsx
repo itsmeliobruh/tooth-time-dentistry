@@ -61,8 +61,11 @@ export default function Nav() {
           <Link href="/about" className="font-body font-semibold text-text-body hover:text-primary transition-colors">
             About
           </Link>
+          <Link href="/location" className="font-body font-semibold text-text-body hover:text-primary transition-colors">
+            Location
+          </Link>
 
-          {/* Locations Dropdown */}
+          {/* Service Areas Dropdown */}
           <div className="relative" onMouseEnter={() => setLocationOpen(true)} onMouseLeave={() => setLocationOpen(false)}>
             <button className="font-body font-semibold text-text-body hover:text-primary transition-colors flex items-center gap-1">
               Service Areas
@@ -132,6 +135,7 @@ export default function Nav() {
               <Link href="/" className="font-body font-semibold text-text-body py-2 border-b border-gray-100" onClick={() => setMenuOpen(false)}>Home</Link>
               <Link href="/services" className="font-body font-semibold text-text-body py-2 border-b border-gray-100" onClick={() => setMenuOpen(false)}>Services</Link>
               <Link href="/about" className="font-body font-semibold text-text-body py-2 border-b border-gray-100" onClick={() => setMenuOpen(false)}>About</Link>
+              <Link href="/location" className="font-body font-semibold text-text-body py-2 border-b border-gray-100" onClick={() => setMenuOpen(false)}>Location</Link>
               <div>
                 <p className="font-body font-bold text-text-dark py-2">Locations</p>
                 {serviceAreas.map((loc) => (
