@@ -66,10 +66,6 @@ export default function Nav() {
             Home
           </Link>
 
-          <Link href="/location" className="font-body font-semibold text-text-body hover:text-primary transition-colors">
-            Location
-          </Link>
-
           {/* Services Dropdown */}
           <div className="relative" onMouseEnter={() => setServicesOpen(true)} onMouseLeave={() => setServicesOpen(false)}>
             <button className="font-body font-semibold text-text-body hover:text-primary transition-colors flex items-center gap-1">
@@ -108,6 +104,7 @@ export default function Nav() {
           </div>
 
           {/* Service Areas Dropdown */}
+
           <div className="relative" onMouseEnter={() => setAreasOpen(true)} onMouseLeave={() => setAreasOpen(false)}>
             <button className="font-body font-semibold text-text-body hover:text-primary transition-colors flex items-center gap-1">
               Service Areas
@@ -138,11 +135,14 @@ export default function Nav() {
             </AnimatePresence>
           </div>
 
-          <Link href="/blog" className="font-body font-semibold text-text-body hover:text-primary transition-colors">
-            Blog
+          <Link href="/location" className="font-body font-semibold text-text-body hover:text-primary transition-colors">
+            Location
           </Link>
           <Link href="/about" className="font-body font-semibold text-text-body hover:text-primary transition-colors">
             About
+          </Link>
+          <Link href="/blog" className="font-body font-semibold text-text-body hover:text-primary transition-colors">
+            Blog
           </Link>
 
           <a
@@ -178,7 +178,6 @@ export default function Nav() {
           >
             <div className="px-4 py-4 flex flex-col gap-3">
               <Link href="/" className="font-body font-semibold text-text-body py-2 border-b border-gray-100" onClick={() => setMenuOpen(false)}>Home</Link>
-              <Link href="/location" className="font-body font-semibold text-text-body py-2 border-b border-gray-100" onClick={() => setMenuOpen(false)}>Location</Link>
 
               {/* Mobile Services */}
               <div>
@@ -210,8 +209,9 @@ export default function Nav() {
                 ))}
               </div>
 
-              <Link href="/blog" className="font-body font-semibold text-text-body py-2 border-t border-gray-100" onClick={() => setMenuOpen(false)}>Blog</Link>
+              <Link href="/location" className="font-body font-semibold text-text-body py-2 border-t border-gray-100" onClick={() => setMenuOpen(false)}>Location</Link>
               <Link href="/about" className="font-body font-semibold text-text-body py-2 border-b border-gray-100" onClick={() => setMenuOpen(false)}>About</Link>
+              <Link href="/blog" className="font-body font-semibold text-text-body py-2 border-b border-gray-100" onClick={() => setMenuOpen(false)}>Blog</Link>
               <a
                 href="tel:+18602637791"
                 className="bg-primary text-white font-body font-bold px-5 py-3 rounded-full text-center mt-2"
