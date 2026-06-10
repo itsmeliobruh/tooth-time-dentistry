@@ -78,7 +78,7 @@ export default function AboutPage() {
             </div>
             <div className="relative h-[500px] rounded-3xl overflow-hidden shadow-2xl">
               <Image
-                src="https://images.unsplash.com/photo-1681939282741-9ace0a227977?w=800&q=80"
+                src="https://images.unsplash.com/photo-1626736985932-c0df2ae07a2e?w=800&q=80"
                 alt="Dr. Lim, pediatric dentist at Tooth Time Dentistry Hartford CT"
                 fill
                 className="object-cover"
@@ -114,8 +114,8 @@ export default function AboutPage() {
             </div>
             <div className="lg:order-1 relative h-[500px] rounded-3xl overflow-hidden shadow-2xl">
               <Image
-                src="https://plus.unsplash.com/premium_photo-1663958034026-2d6311bc344c?w=800&q=80"
-                alt="Parent and child at Tooth Time Dentistry Hartford enjoying their visit"
+                src="https://images.unsplash.com/photo-1593183230686-69876b0cb240?w=800&q=80"
+                alt="Happy diverse children at Tooth Time Dentistry Hartford CT"
                 fill
                 className="object-cover"
               />
