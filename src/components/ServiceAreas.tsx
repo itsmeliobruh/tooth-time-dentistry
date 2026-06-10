@@ -34,6 +34,12 @@ const areas = [
     description: 'New Britain families trust us for comprehensive, compassionate pediatric dental care.',
     icon: '⭐',
   },
+  {
+    city: 'Bloomfield',
+    href: '/locations/bloomfield',
+    description: 'Bloomfield families are just minutes away from our Hartford office on Albany Avenue.',
+    icon: '🌿',
+  },
 ]
 
 export default function ServiceAreas() {
@@ -56,6 +62,26 @@ export default function ServiceAreas() {
           <p className="font-body text-text-body text-lg max-w-2xl mx-auto">
             Families across the greater Hartford area trust Tooth Time Dentistry for exceptional pediatric dental care. Find your area below.
           </p>
+        </motion.div>
+
+        {/* Google Maps */}
+        <motion.div
+          initial={{ opacity: 0, y: 20 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          viewport={{ once: true }}
+          transition={{ duration: 0.5 }}
+          className="rounded-2xl overflow-hidden shadow-xl border border-primary/10 h-80 mb-12"
+        >
+          <iframe
+            title="Tooth Time Dentistry Location"
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3000!2d-72.6974!3d41.7887!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89e65365b8e0a1b5%3A0x5e24d9c7e0c55f9e!2s1000%20Albany%20Ave%2C%20Hartford%2C%20CT%2006112!5e0!3m2!1sen!2sus!4v1700000000000"
+            width="100%"
+            height="100%"
+            style={{ border: 0 }}
+            allowFullScreen
+            loading="lazy"
+            referrerPolicy="no-referrer-when-downgrade"
+          />
         </motion.div>
 
         <motion.div
@@ -90,25 +116,6 @@ export default function ServiceAreas() {
           ))}
         </motion.div>
 
-        {/* Google Maps */}
-        <motion.div
-          initial={{ opacity: 0, y: 20 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          viewport={{ once: true }}
-          transition={{ duration: 0.5 }}
-          className="rounded-2xl overflow-hidden shadow-xl border border-primary/10 h-80"
-        >
-          <iframe
-            title="Tooth Time Dentistry Location"
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3000!2d-72.6974!3d41.7887!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89e65365b8e0a1b5%3A0x5e24d9c7e0c55f9e!2s1000%20Albany%20Ave%2C%20Hartford%2C%20CT%2006112!5e0!3m2!1sen!2sus!4v1700000000000"
-            width="100%"
-            height="100%"
-            style={{ border: 0 }}
-            allowFullScreen
-            loading="lazy"
-            referrerPolicy="no-referrer-when-downgrade"
-          />
-        </motion.div>
       </div>
     </section>
   )

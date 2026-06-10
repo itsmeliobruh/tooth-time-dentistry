@@ -20,6 +20,7 @@ const serviceAreas = [
   { label: 'Manchester', href: '/locations/manchester' },
   { label: 'West Hartford', href: '/locations/west-hartford' },
   { label: 'New Britain', href: '/locations/new-britain' },
+  { label: 'Bloomfield', href: '/locations/bloomfield' },
 ]
 
 export default function Nav() {
