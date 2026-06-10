@@ -26,18 +26,11 @@ export default function CTASection() {
             >
               📞 (860) 263-7791
             </a>
-            <a
-              href="tel:+18602160316"
-              className="inline-flex items-center justify-center gap-3 bg-white/20 hover:bg-white/30 text-white border-2 border-white/50 font-body font-bold px-10 py-5 rounded-full text-xl transition-colors"
-            >
-              📞 (860) 216-0316
-            </a>
           </div>
 
           <div className="font-body text-white/80 space-y-1">
             <p>📍 1000 Albany Avenue, STE 1, Hartford, CT 06112</p>
             <p>Mon 8AM–5PM · Tue 8AM–2PM · Wed 8AM–5PM · Fri 8AM–5PM</p>
-            <p className="text-white/60 text-sm mt-2">Also accepting patients from East Hartford · Manchester · West Hartford · New Britain</p>
           </div>
         </motion.div>
       </div>

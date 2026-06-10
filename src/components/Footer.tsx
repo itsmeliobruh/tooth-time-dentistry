@@ -37,9 +37,9 @@ export default function Footer() {
             </ul>
           </div>
 
-          {/* Column 3: Locations */}
+          {/* Column 3: Service Areas */}
           <div>
-            <h3 className="font-display text-xl text-primary-light mb-4">Locations</h3>
+            <h3 className="font-display text-xl text-primary-light mb-4">Service Areas</h3>
             <ul className="space-y-2">
               {[
                 { label: 'Hartford, CT', href: '/locations/hartford' },
@@ -65,11 +65,6 @@ export default function Footer() {
               <p>
                 <a href="tel:+18602637791" className="hover:text-primary-light transition-colors">
                   📞 (860) 263-7791
-                </a>
-              </p>
-              <p>
-                <a href="tel:+18602160316" className="hover:text-primary-light transition-colors">
-                  📞 (860) 216-0316
                 </a>
               </p>
               <p>

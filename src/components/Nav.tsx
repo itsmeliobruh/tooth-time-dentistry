@@ -5,12 +5,12 @@ import Link from 'next/link'
 import Image from 'next/image'
 import { motion, AnimatePresence } from 'framer-motion'
 
-const locations = [
-  { label: 'Hartford', href: '/locations/hartford' },
-  { label: 'East Hartford', href: '/locations/east-hartford' },
-  { label: 'Manchester', href: '/locations/manchester' },
-  { label: 'West Hartford', href: '/locations/west-hartford' },
-  { label: 'New Britain', href: '/locations/new-britain' },
+const serviceAreas = [
+  { label: 'Hartford', href: '/serviceAreas/hartford' },
+  { label: 'East Hartford', href: '/serviceAreas/east-hartford' },
+  { label: 'Manchester', href: '/serviceAreas/manchester' },
+  { label: 'West Hartford', href: '/serviceAreas/west-hartford' },
+  { label: 'New Britain', href: '/serviceAreas/new-britain' },
 ]
 
 export default function Nav() {
@@ -65,7 +65,7 @@ export default function Nav() {
           {/* Locations Dropdown */}
           <div className="relative" onMouseEnter={() => setLocationOpen(true)} onMouseLeave={() => setLocationOpen(false)}>
             <button className="font-body font-semibold text-text-body hover:text-primary transition-colors flex items-center gap-1">
-              Locations
+              Service Areas
               <svg className={`w-4 h-4 transition-transform ${locationOpen ? 'rotate-180' : ''}`} fill="none" viewBox="0 0 24 24" stroke="currentColor">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
               </svg>
@@ -79,7 +79,7 @@ export default function Nav() {
                   transition={{ duration: 0.15 }}
                   className="absolute top-full left-0 mt-1 w-48 bg-white rounded-xl shadow-xl border border-gray-100 overflow-hidden"
                 >
-                  {locations.map((loc) => (
+                  {serviceAreas.map((loc) => (
                     <Link
                       key={loc.href}
                       href={loc.href}
@@ -134,7 +134,7 @@ export default function Nav() {
               <Link href="/about" className="font-body font-semibold text-text-body py-2 border-b border-gray-100" onClick={() => setMenuOpen(false)}>About</Link>
               <div>
                 <p className="font-body font-bold text-text-dark py-2">Locations</p>
-                {locations.map((loc) => (
+                {serviceAreas.map((loc) => (
                   <Link
                     key={loc.href}
                     href={loc.href}
