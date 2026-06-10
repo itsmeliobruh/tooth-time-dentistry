@@ -97,12 +97,8 @@ export default function Footer() {
           <p>© 2026 Tooth Time Dentistry. All rights reserved.</p>
           <p>
             Designed by{' '}
-            <a href="https://egl.solutions" target="_blank" rel="noopener noreferrer" className="hover:text-primary-light transition-colors">
+            <a href="https://egl.solutions" target="_blank" rel="noopener noreferrer" style={{ color: '#FF5500' }} className="font-semibold hover:opacity-80 transition-opacity">
               EGL Solutions
-            </a>{' '}
-            ·{' '}
-            <a href="tel:+18602003455" className="hover:text-primary-light transition-colors">
-              (860) 200-3455
             </a>
           </p>
         </div>
