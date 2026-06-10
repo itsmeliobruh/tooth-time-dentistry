@@ -47,6 +47,7 @@ export default function Footer() {
                 { label: 'Manchester, CT', href: '/locations/manchester' },
                 { label: 'West Hartford, CT', href: '/locations/west-hartford' },
                 { label: 'New Britain, CT', href: '/locations/new-britain' },
+                { label: 'Bloomfield, CT', href: '/locations/bloomfield' },
               ].map((loc) => (
                 <li key={loc.href}>
                   <Link href={loc.href} className="font-body text-gray-300 hover:text-primary-light transition-colors text-sm">
