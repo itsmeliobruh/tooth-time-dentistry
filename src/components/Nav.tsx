@@ -58,9 +58,6 @@ export default function Nav() {
           <Link href="/services" className="font-body font-semibold text-text-body hover:text-primary transition-colors">
             Services
           </Link>
-          <Link href="/about" className="font-body font-semibold text-text-body hover:text-primary transition-colors">
-            About
-          </Link>
           <Link href="/location" className="font-body font-semibold text-text-body hover:text-primary transition-colors">
             Location
           </Link>
@@ -99,6 +96,9 @@ export default function Nav() {
           <Link href="/blog" className="font-body font-semibold text-text-body hover:text-primary transition-colors">
             Blog
           </Link>
+          <Link href="/about" className="font-body font-semibold text-text-body hover:text-primary transition-colors">
+            About
+          </Link>
 
           <a
             href="tel:+18602637791"
@@ -134,10 +134,9 @@ export default function Nav() {
             <div className="px-4 py-4 flex flex-col gap-3">
               <Link href="/" className="font-body font-semibold text-text-body py-2 border-b border-gray-100" onClick={() => setMenuOpen(false)}>Home</Link>
               <Link href="/services" className="font-body font-semibold text-text-body py-2 border-b border-gray-100" onClick={() => setMenuOpen(false)}>Services</Link>
-              <Link href="/about" className="font-body font-semibold text-text-body py-2 border-b border-gray-100" onClick={() => setMenuOpen(false)}>About</Link>
               <Link href="/location" className="font-body font-semibold text-text-body py-2 border-b border-gray-100" onClick={() => setMenuOpen(false)}>Location</Link>
               <div>
-                <p className="font-body font-bold text-text-dark py-2">Locations</p>
+                <p className="font-body font-bold text-text-dark py-2">Service Areas</p>
                 {serviceAreas.map((loc) => (
                   <Link
                     key={loc.href}
@@ -150,6 +149,7 @@ export default function Nav() {
                 ))}
               </div>
               <Link href="/blog" className="font-body font-semibold text-text-body py-2 border-t border-gray-100" onClick={() => setMenuOpen(false)}>Blog</Link>
+              <Link href="/about" className="font-body font-semibold text-text-body py-2 border-b border-gray-100" onClick={() => setMenuOpen(false)}>About</Link>
               <a
                 href="tel:+18602637791"
                 className="bg-primary text-white font-body font-bold px-5 py-3 rounded-full text-center mt-2"
