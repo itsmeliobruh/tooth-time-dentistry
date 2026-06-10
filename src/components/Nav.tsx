@@ -35,23 +35,19 @@ export default function Nav() {
     >
       <div className="max-w-7xl mx-auto px-4 flex items-center justify-between">
         {/* Logo */}
-        <Link href="/" className="flex items-center gap-3">
-          <div className="relative w-14 h-14">
+        <Link href="/" className="flex items-center">
+          <div className="relative h-14 w-40">
             <Image
               src="/toothlogo_clean.png"
               alt="Tooth Time Dentistry Logo"
               fill
-              className="object-contain"
+              className="object-contain object-left"
               onError={(e) => {
                 const target = e.target as HTMLImageElement
                 target.style.display = 'none'
               }}
             />
           </div>
-          <span className="font-display font-bold text-2xl text-primary leading-tight">
-            Tooth Time<br />
-            <span className="font-display font-bold text-lg text-text-dark">Dentistry</span>
-          </span>
         </Link>
 
         {/* Desktop Nav */}
