@@ -66,6 +66,10 @@ export default function Nav() {
             Home
           </Link>
 
+          <Link href="/location" className="font-body font-semibold text-text-body hover:text-primary transition-colors">
+            Location
+          </Link>
+
           {/* Services Dropdown */}
           <div className="relative" onMouseEnter={() => setServicesOpen(true)} onMouseLeave={() => setServicesOpen(false)}>
             <button className="font-body font-semibold text-text-body hover:text-primary transition-colors flex items-center gap-1">
@@ -102,10 +106,6 @@ export default function Nav() {
               )}
             </AnimatePresence>
           </div>
-
-          <Link href="/location" className="font-body font-semibold text-text-body hover:text-primary transition-colors">
-            Location
-          </Link>
 
           {/* Service Areas Dropdown */}
           <div className="relative" onMouseEnter={() => setAreasOpen(true)} onMouseLeave={() => setAreasOpen(false)}>
@@ -178,6 +178,7 @@ export default function Nav() {
           >
             <div className="px-4 py-4 flex flex-col gap-3">
               <Link href="/" className="font-body font-semibold text-text-body py-2 border-b border-gray-100" onClick={() => setMenuOpen(false)}>Home</Link>
+              <Link href="/location" className="font-body font-semibold text-text-body py-2 border-b border-gray-100" onClick={() => setMenuOpen(false)}>Location</Link>
 
               {/* Mobile Services */}
               <div>
@@ -193,8 +194,6 @@ export default function Nav() {
                   </Link>
                 ))}
               </div>
-
-              <Link href="/location" className="font-body font-semibold text-text-body py-2 border-t border-b border-gray-100" onClick={() => setMenuOpen(false)}>Location</Link>
 
               {/* Mobile Service Areas */}
               <div>
