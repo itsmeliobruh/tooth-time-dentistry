@@ -80,7 +80,7 @@ export default function WestHartfordPage() {
             </a>
           </div>
           <div className="relative h-96 rounded-2xl overflow-hidden shadow-xl">
-            <Image src="https://plus.unsplash.com/premium_photo-1663958034026-2d6311bc344c?w=800&q=80" alt="West Hartford families at Tooth Time Dentistry Hartford CT" fill className="object-cover" />
+            <Image src="/office-1.jpeg" alt="West Hartford families at Tooth Time Dentistry Hartford CT" fill className="object-cover" />
           </div>
         </div>
       </section>

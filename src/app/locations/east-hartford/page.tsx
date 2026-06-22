@@ -80,7 +80,7 @@ export default function EastHartfordPage() {
             </a>
           </div>
           <div className="relative h-96 rounded-2xl overflow-hidden shadow-xl">
-            <Image src="https://images.unsplash.com/photo-1593183230686-69876b0cb240?w=1200&q=80" alt="Diverse East Hartford children at Tooth Time Dentistry" fill className="object-cover" />
+            <Image src="/childrens-dentistry-hartford-ct.jpeg" alt="Diverse East Hartford children at Tooth Time Dentistry" fill className="object-cover" />
           </div>
         </div>
       </section>

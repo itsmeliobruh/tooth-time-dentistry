@@ -26,7 +26,7 @@ export const services: Service[] = [
     metaTitle: 'Pediatric Dental Cleanings in Hartford, CT | Tooth Time Dentistry',
     metaDescription:
       'Professional teeth cleanings and exams for kids in Hartford, CT. Tooth Time Dentistry accepts HUSKY Health. Call (860) 263-7791 to book your child\'s cleaning today.',
-    image: 'https://images.unsplash.com/photo-1681939282741-9ace0a227977?w=1200&q=80',
+    image: '/ChildrenHero.jpg',
     imageAlt: 'Pediatric dental hygienist performing a gentle teeth cleaning on a child in Hartford CT',
     intro:
       'Preventive dental care is the foundation of a lifetime of healthy smiles. At Tooth Time Dentistry in Hartford, CT, our gentle cleanings and thorough exams help your child stay cavity-free — and make every visit something they look forward to.',
@@ -64,7 +64,7 @@ export const services: Service[] = [
     metaTitle: 'Safe Digital Dental X-Rays for Kids in Hartford, CT | Tooth Time Dentistry',
     metaDescription:
       'Low-radiation digital dental X-rays for children at Tooth Time Dentistry in Hartford, CT. Safe, fast, and essential for catching hidden cavities and tracking jaw development. Call (860) 263-7791.',
-    image: 'https://plus.unsplash.com/premium_photo-1681997228576-97a401398bf5?w=1200&q=80',
+    image: '/childrens-dentistry-hartford-ct.jpeg',
     imageAlt: 'Modern digital dental X-ray equipment used safely for children at Tooth Time Dentistry Hartford CT',
     intro:
       'Digital dental X-rays give Dr. Lim a complete picture of your child\'s oral health — revealing cavities, tracking jaw development, and catching problems that are invisible to the naked eye, all with significantly less radiation than traditional film X-rays.',
@@ -102,7 +102,7 @@ export const services: Service[] = [
     metaTitle: 'Tooth Fillings for Children in Hartford, CT | Tooth Time Dentistry',
     metaDescription:
       'Tooth-colored composite fillings for kids at Tooth Time Dentistry in Hartford, CT. Gentle, mercury-free, and completed in one visit. HUSKY accepted. Call (860) 263-7791.',
-    image: 'https://plus.unsplash.com/premium_photo-1681966964991-c91687dc735f?w=1200&q=80',
+    image: '/office-1.jpeg',
     imageAlt: 'Child relaxed in dental chair receiving a tooth-colored filling at Tooth Time Dentistry Hartford CT',
     intro:
       'When a cavity develops, prompt treatment stops the decay in its tracks. At Tooth Time Dentistry in Hartford, CT, we restore teeth with tooth-colored composite resin fillings — no silver, no mercury, and results that blend naturally with your child\'s smile.',
@@ -140,7 +140,7 @@ export const services: Service[] = [
     metaTitle: 'Pediatric Tooth Extractions in Hartford, CT | Tooth Time Dentistry',
     metaDescription:
       'Safe, gentle tooth extractions for children at Tooth Time Dentistry in Hartford, CT. Nitrous oxide available for anxious kids. HUSKY accepted. Call (860) 263-7791.',
-    image: 'https://images.unsplash.com/photo-1619236233405-bb5d430f0620?w=1200&q=80',
+    image: '/office-2.jpeg',
     imageAlt: 'Children smiling and comfortable after a gentle dental procedure at Tooth Time Dentistry Hartford CT',
     intro:
       'When a tooth cannot be saved, our goal is to make the extraction as gentle and stress-free as possible. At Tooth Time Dentistry in Hartford, CT, we exhaust every option to preserve teeth before recommending removal — and when extraction is the right choice, we make it comfortable.',
@@ -178,7 +178,7 @@ export const services: Service[] = [
     metaTitle: 'Nitrous Oxide Sedation for Kids in Hartford, CT | Tooth Time Dentistry',
     metaDescription:
       'Safe laughing gas sedation for anxious children at Tooth Time Dentistry in Hartford, CT. Your child stays awake and comfortable. HUSKY accepted. Call (860) 263-7791.',
-    image: 'https://images.unsplash.com/photo-1626736985932-c0df2ae07a2e?w=1200&q=80',
+    image: '/office-3.jpeg',
     imageAlt: 'Child relaxed and smiling with parent at Tooth Time Dentistry Hartford CT pediatric dental office',
     intro:
       'Dental anxiety is real — and at Tooth Time Dentistry in Hartford, CT, we take it seriously. Nitrous oxide (laughing gas) is the safest, most widely used sedation option in pediatric dentistry, helping children relax so they can receive the care they need comfortably and confidently.',
@@ -216,7 +216,7 @@ export const services: Service[] = [
     metaTitle: 'Special Needs Pediatric Dentist in Hartford, CT | Tooth Time Dentistry',
     metaDescription:
       'Compassionate dental care for children with special needs in Hartford, CT. Tooth Time Dentistry has extensive experience with autism, Down syndrome, cerebral palsy & more. Call (860) 263-7791.',
-    image: 'https://images.unsplash.com/photo-1593183230686-69876b0cb240?w=1200&q=80',
+    image: '/tooth-time-dentistry.jpeg',
     imageAlt: 'Diverse group of children receiving compassionate special needs dental care at Tooth Time Dentistry Hartford CT',
     intro:
       'Every child deserves excellent dental care. At Tooth Time Dentistry in Hartford, CT, Dr. Lim and her team have built a practice that truly welcomes children with physical, developmental, cognitive, and behavioral special needs — with the patience, skill, and compassion their care requires.',

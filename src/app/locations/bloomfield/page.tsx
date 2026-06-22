@@ -115,7 +115,7 @@ export default function BloomfieldPage() {
           </div>
           <div className="relative h-96 rounded-2xl overflow-hidden shadow-xl">
             <Image
-              src="https://images.unsplash.com/photo-1581578731548-c64695cc6952?w=1200&q=80"
+              src="/office-4.jpeg"
               alt="Pediatric dentist serving Bloomfield CT children at Tooth Time Dentistry Hartford"
               fill
               className="object-cover"

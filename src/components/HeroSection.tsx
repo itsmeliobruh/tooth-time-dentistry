@@ -104,7 +104,7 @@ export default function HeroSection() {
           >
             <div className="relative h-[500px] lg:h-[600px] rounded-3xl overflow-hidden shadow-2xl">
               <Image
-                src="https://images.unsplash.com/photo-1631051103633-24959376b92d?w=1200&q=80"
+                src="/ChildrenHero.jpg"
                 alt="Happy children smiling at Tooth Time Dentistry Hartford CT"
                 fill
                 className="object-cover"

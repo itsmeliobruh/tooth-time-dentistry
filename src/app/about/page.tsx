@@ -78,7 +78,7 @@ export default function AboutPage() {
             </div>
             <div className="relative h-[500px] rounded-3xl overflow-hidden shadow-2xl">
               <Image
-                src="https://images.unsplash.com/photo-1626736985932-c0df2ae07a2e?w=800&q=80"
+                src="/childrens-dentistry-hartford-ct.jpeg"
                 alt="Dr. Lim, pediatric dentist at Tooth Time Dentistry Hartford CT"
                 fill
                 className="object-cover"
@@ -114,7 +114,7 @@ export default function AboutPage() {
             </div>
             <div className="lg:order-1 relative h-[500px] rounded-3xl overflow-hidden shadow-2xl">
               <Image
-                src="https://images.unsplash.com/photo-1593183230686-69876b0cb240?w=800&q=80"
+                src="/tooth-time-dentistry.jpeg"
                 alt="Happy diverse children at Tooth Time Dentistry Hartford CT"
                 fill
                 className="object-cover"
@@ -136,7 +136,7 @@ export default function AboutPage() {
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
             <div className="relative h-64 rounded-2xl overflow-hidden shadow-lg">
               <Image
-                src="https://plus.unsplash.com/premium_photo-1681997228576-97a401398bf5?w=800&q=80"
+                src="/office-2.jpeg"
                 alt="Tooth Time Dentistry office interior Hartford CT"
                 fill
                 className="object-cover"
@@ -144,7 +144,7 @@ export default function AboutPage() {
             </div>
             <div className="relative h-64 rounded-2xl overflow-hidden shadow-lg">
               <Image
-                src="https://plus.unsplash.com/premium_photo-1681966964991-c91687dc735f?w=800&q=80"
+                src="/office-3.jpeg"
                 alt="Dental treatment room at Tooth Time Dentistry"
                 fill
                 className="object-cover"
@@ -152,7 +152,7 @@ export default function AboutPage() {
             </div>
             <div className="relative h-64 rounded-2xl overflow-hidden shadow-lg">
               <Image
-                src="https://images.unsplash.com/photo-1565090568947-7293970ba471?w=800&q=80"
+                src="/office-4.jpeg"
                 alt="Female dentist treating a patient at Tooth Time Dentistry Hartford CT"
                 fill
                 className="object-cover"
