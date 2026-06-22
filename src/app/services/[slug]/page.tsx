@@ -83,7 +83,7 @@ export default function ServicePage({ params }: Props) {
 
       {/* Hero */}
       <section className="bg-bg-pearl pt-32 pb-16">
-        <div className="max-w-4xl mx-auto px-4">
+        <div className="max-w-7xl mx-auto px-4">
           {/* Breadcrumb */}
           <nav className="flex items-center gap-2 text-sm font-body text-text-body mb-6" aria-label="Breadcrumb">
             <Link href="/" className="hover:text-primary transition-colors">Home</Link>
