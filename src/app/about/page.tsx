@@ -176,8 +176,8 @@ export default function AboutPage() {
             </div>
             <div className="relative h-[500px] rounded-3xl overflow-hidden shadow-2xl">
               <Image
-                src="/dr-lim-2.jpg"
-                alt="Dr. Lim outside Tooth Time Dentistry Hartford CT"
+                src="/IMG_7803.JPG"
+                alt="Dr. Lim outdoors in winter at Tooth Time Dentistry Hartford CT"
                 fill
                 className="object-cover object-top"
               />
@@ -212,8 +212,8 @@ export default function AboutPage() {
             </div>
             <div className="lg:order-1 relative h-[500px] rounded-3xl overflow-hidden shadow-2xl">
               <Image
-                src="/tooth-time-dentistry.jpeg"
-                alt="Happy diverse children at Tooth Time Dentistry Hartford CT"
+                src="/IMG_7802.jpeg"
+                alt="Dr. Lim at Tooth Time Dentistry Hartford CT"
                 fill
                 className="object-cover"
               />
