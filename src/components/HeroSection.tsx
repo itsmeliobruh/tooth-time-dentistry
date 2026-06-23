@@ -102,12 +102,13 @@ export default function HeroSection() {
             transition={{ duration: 0.7, delay: 0.2 }}
             className="relative"
           >
-            <div className="relative h-[500px] lg:h-[600px] rounded-3xl overflow-hidden shadow-2xl">
+            <div className="relative rounded-3xl overflow-hidden shadow-2xl">
               <Image
                 src="/ChildrenHero.jpg"
                 alt="Happy children smiling at Tooth Time Dentistry Hartford CT"
-                fill
-                className="object-cover"
+                width={1254}
+                height={837}
+                className="w-full h-auto"
                 priority
               />
               <div className="absolute inset-0 bg-gradient-to-t from-primary/20 to-transparent" />
