@@ -94,8 +94,8 @@ export default function HomePage() {
       <ServicesGrid />
       <WhyChooseUs />
       <ReviewsCarousel />
-      <SocialSection />
       <ServiceAreas />
+      <SocialSection />
       <InsuranceSection />
       <FAQAccordion />
       <CTASection />
