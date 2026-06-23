@@ -14,7 +14,7 @@ const reasons = [
   {
     title: 'Anxiety-Free Visits with Nitrous Oxide',
     body: "Dental anxiety is real, and we take it seriously. Tooth Time Dentistry offers nitrous oxide (laughing gas) sedation to help nervous children relax during procedures. Nitrous oxide is completely safe, fast-acting, and wears off within minutes after the mask is removed. Combined with our gentle, patient chairside manner, we transform what could be a scary experience into a calm, even pleasant one. Your child's comfort is our priority from the moment they walk through our doors.",
-    image: '/childrens-dentistry-hartford-ct.jpeg',
+    image: '/nitrous-oxide-child.jpg',
     imageAlt: 'Child comfortable in dental chair at Tooth Time Dentistry',
     direction: 'right' as const,
   },
