@@ -4,7 +4,7 @@ import { motion } from 'framer-motion'
 
 export default function SocialSection() {
   return (
-    <section className="py-16 bg-white">
+    <section className="pt-0 pb-16 bg-white">
       <div className="max-w-7xl mx-auto px-4">
         <motion.div
           initial={{ opacity: 0, y: 20 }}
