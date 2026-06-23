@@ -63,7 +63,7 @@ export default function AboutPage() {
                   Dr. Lim founded Tooth Time Dentistry with a single powerful mission: to create a dental practice where every child feels safe, comfortable, and genuinely cared for. With over 14 years of experience in children&apos;s dentistry in the Hartford area, she has built a reputation as one of Connecticut&apos;s most skilled and compassionate children&apos;s dentists.
                 </p>
                 <p>
-                  Dr. Lim completed her dental education with distinction and has pursued extensive continuing education in children&apos;s dentistry, special needs care, and sedation techniques. She is known among Hartford families for her extraordinary patience, her ability to connect with even the most nervous children, and her meticulous clinical skills.
+                  Dr. Lim earned her undergraduate degree from the University of Pennsylvania before going on to receive her Doctorate of Dental Medicine (DMD) from Rutgers School of Dental Medicine in New Jersey. She further honed her clinical skills through a residency at Wycoff Heights Medical Center in New York City — an affiliate of Cornell University. She is known among Hartford families for her extraordinary patience, her ability to connect with even the most nervous children, and her meticulous clinical skills.
                 </p>
                 <p>
                   Patients and parents consistently praise Dr. Lim for her kindness, her clear communication, and her genuine investment in each child&apos;s wellbeing. Hundreds of Hartford families have trusted her with their children&apos;s dental care for years — many bringing multiple children and even grandchildren to her practice.
@@ -104,13 +104,18 @@ export default function AboutPage() {
             {[
               {
                 icon: '🎓',
-                title: 'Doctor of Dental Surgery (DDS)',
-                desc: 'Dr. Lim earned her DDS degree and completed her advanced training with distinction, building the clinical foundation for over 14 years of dedicated children\'s dental practice.',
+                title: 'University of Pennsylvania',
+                desc: 'Dr. Lim earned her undergraduate degree from the University of Pennsylvania, one of the nation\'s most prestigious Ivy League institutions.',
               },
               {
-                icon: '👶',
-                title: 'Pediatric Dental Specialization',
-                desc: 'Extensive postgraduate continuing education focused on children\'s dentistry, behavior management, and age-appropriate treatment techniques for patients of all developmental stages.',
+                icon: '🦷',
+                title: 'Doctor of Dental Medicine (DMD)',
+                desc: 'Dr. Lim earned her Doctorate of Dental Medicine from Rutgers School of Dental Medicine in New Jersey, graduating with a strong foundation in comprehensive dental care.',
+              },
+              {
+                icon: '🏥',
+                title: 'Residency — Cornell University Affiliate',
+                desc: 'Dr. Lim completed her postgraduate residency at Wycoff Heights Medical Center in New York City, an affiliate of Cornell University, where she refined her clinical skills.',
               },
               {
                 icon: '💨',
@@ -121,11 +126,6 @@ export default function AboutPage() {
                 icon: '🌟',
                 title: 'Special Needs Dentistry Training',
                 desc: 'Specialized training in providing compassionate, individualized dental care for children with physical, developmental, cognitive, and behavioral needs.',
-              },
-              {
-                icon: '🏥',
-                title: 'HUSKY Health Provider',
-                desc: 'Certified HUSKY Health (Connecticut Medicaid) provider, ensuring every Hartford family has access to quality children\'s dental care regardless of financial situation.',
               },
               {
                 icon: '📚',
