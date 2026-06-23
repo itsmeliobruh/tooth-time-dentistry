@@ -5,6 +5,7 @@ import AboutSection from '@/components/AboutSection'
 import ServicesGrid from '@/components/ServicesGrid'
 import WhyChooseUs from '@/components/WhyChooseUs'
 import ReviewsCarousel from '@/components/ReviewsCarousel'
+import SocialSection from '@/components/SocialSection'
 import ServiceAreas from '@/components/ServiceAreas'
 import InsuranceSection from '@/components/InsuranceSection'
 import FAQAccordion from '@/components/FAQAccordion'
@@ -93,6 +94,7 @@ export default function HomePage() {
       <ServicesGrid />
       <WhyChooseUs />
       <ReviewsCarousel />
+      <SocialSection />
       <ServiceAreas />
       <InsuranceSection />
       <FAQAccordion />
