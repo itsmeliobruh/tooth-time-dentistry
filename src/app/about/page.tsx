@@ -52,7 +52,7 @@ export default function AboutPage() {
       {/* Dr. Lim Section */}
       <section className="py-20 bg-white">
         <div className="max-w-7xl mx-auto px-4">
-          <div className="grid grid-cols-1 lg:grid-cols-2 gap-14 items-center">
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-14 items-stretch">
             <div>
               <span className="label-text inline-block bg-primary/10 text-primary font-semibold text-sm px-3 py-1 rounded-full mb-4">
                 Meet Our Doctor
@@ -76,7 +76,7 @@ export default function AboutPage() {
                 </p>
               </div>
             </div>
-            <div className="relative h-[500px] rounded-3xl overflow-hidden shadow-2xl">
+            <div className="relative h-full min-h-[500px] rounded-3xl overflow-hidden shadow-2xl">
               <Image
                 src="/dr-lim.jpg"
                 alt="Dr. Lim, children's dentist at Tooth Time Dentistry Hartford CT"
@@ -146,7 +146,7 @@ export default function AboutPage() {
       {/* Life Outside the Office */}
       <section className="py-20 bg-white">
         <div className="max-w-7xl mx-auto px-4">
-          <div className="grid grid-cols-1 lg:grid-cols-2 gap-14 items-center">
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-14 items-stretch">
             <div>
               <span className="label-text inline-block bg-secondary/10 text-secondary-dark font-semibold text-sm px-3 py-1 rounded-full mb-4">
                 Life Outside the Office
@@ -174,7 +174,7 @@ export default function AboutPage() {
                 ))}
               </div>
             </div>
-            <div className="relative h-[500px] rounded-3xl overflow-hidden shadow-2xl">
+            <div className="relative h-full min-h-[500px] rounded-3xl overflow-hidden shadow-2xl">
               <Image
                 src="/IMG_7803.JPG"
                 alt="Dr. Lim outdoors in winter at Tooth Time Dentistry Hartford CT"
@@ -189,7 +189,7 @@ export default function AboutPage() {
       {/* Philosophy */}
       <section className="py-20 bg-bg-pearl">
         <div className="max-w-7xl mx-auto px-4">
-          <div className="grid grid-cols-1 lg:grid-cols-2 gap-14 items-center">
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-14 items-stretch">
             <div className="lg:order-2">
               <span className="label-text inline-block bg-secondary/10 text-secondary-dark font-semibold text-sm px-3 py-1 rounded-full mb-4">
                 Our Philosophy
@@ -210,7 +210,7 @@ export default function AboutPage() {
                 </p>
               </div>
             </div>
-            <div className="lg:order-1 relative h-[500px] rounded-3xl overflow-hidden shadow-2xl">
+            <div className="lg:order-1 relative h-full min-h-[500px] rounded-3xl overflow-hidden shadow-2xl">
               <Image
                 src="/IMG_7802.jpeg"
                 alt="Dr. Lim at Tooth Time Dentistry Hartford CT"
