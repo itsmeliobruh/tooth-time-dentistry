@@ -3,14 +3,14 @@ import Image from 'next/image'
 import CTASection from '@/components/CTASection'
 
 export const metadata: Metadata = {
-  title: "About Tooth Time Dentistry — Hartford's Pediatric Dental Team",
+  title: "About Tooth Time Dentistry — Hartford's Dental Team for Kids",
   description:
     "Meet Dr. Lim and the Tooth Time Dentistry team in Hartford, CT. 14+ years of gentle, specialized pediatric dental care for children of all needs. Call (860) 263-7791.",
   alternates: {
     canonical: 'https://toothtimect.com/about',
   },
   openGraph: {
-    title: "About Tooth Time Dentistry — Hartford's Pediatric Dental Team",
+    title: "About Tooth Time Dentistry — Hartford's Dental Team for Kids",
     description:
       "Meet Dr. Lim and our multilingual, compassionate pediatric dental team serving Hartford, CT families for 14+ years.",
     url: 'https://toothtimect.com/about',
@@ -41,7 +41,7 @@ export default function AboutPage() {
             Our Story
           </span>
           <h1 className="font-display text-5xl lg:text-6xl text-text-dark mb-6">
-            About Tooth Time Dentistry — Hartford&apos;s Pediatric Dental Team
+            About Tooth Time Dentistry — Hartford&apos;s Dental Team for Kids
           </h1>
           <p className="font-body text-text-body text-xl leading-relaxed">
             For over 14 years, we have been Hartford&apos;s trusted partner in children&apos;s oral health — building big smiles and lasting confidence, one little patient at a time.
