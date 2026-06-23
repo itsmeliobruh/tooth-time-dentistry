@@ -60,7 +60,7 @@ export default function AboutPage() {
               <h2 className="font-display text-4xl text-text-dark mb-6">Dr. Lim — Hartford&apos;s Most Trusted Children&apos;s Dentist</h2>
               <div className="font-body text-text-body leading-relaxed space-y-4 text-lg">
                 <p>
-                  Dr. Lim founded Tooth Time Dentistry with a single powerful mission: to create a dental practice where every child feels safe, comfortable, and genuinely cared for. With over 14 years of experience in pediatric dentistry in the Hartford area, she has built a reputation as one of Connecticut&apos;s most skilled and compassionate children&apos;s dentists.
+                  Dr. Lim founded Tooth Time Dentistry with a single powerful mission: to create a dental practice where every child feels safe, comfortable, and genuinely cared for. With over 14 years of experience in children&apos;s dentistry in the Hartford area, she has built a reputation as one of Connecticut&apos;s most skilled and compassionate children&apos;s dentists.
                 </p>
                 <p>
                   Dr. Lim completed her dental education with distinction and has pursued extensive continuing education in pediatric dentistry, special needs care, and sedation techniques. She is known among Hartford families for her extraordinary patience, her ability to connect with even the most nervous children, and her meticulous clinical skills.
