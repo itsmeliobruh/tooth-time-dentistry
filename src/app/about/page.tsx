@@ -78,10 +78,108 @@ export default function AboutPage() {
             </div>
             <div className="relative h-[500px] rounded-3xl overflow-hidden shadow-2xl">
               <Image
-                src="/childrens-dentistry-hartford-ct.jpeg"
-                alt="Dr. Lim, pediatric dentist at Tooth Time Dentistry Hartford CT"
+                src="/dr-lim.jpg"
+                alt="Dr. Lim, children's dentist at Tooth Time Dentistry Hartford CT"
                 fill
-                className="object-cover"
+                className="object-cover object-top"
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Credentials & Education */}
+      <section className="py-20 bg-bg-pearl">
+        <div className="max-w-7xl mx-auto px-4">
+          <div className="text-center mb-12">
+            <span className="label-text inline-block bg-primary/10 text-primary font-semibold text-sm px-3 py-1 rounded-full mb-4">
+              Education &amp; Credentials
+            </span>
+            <h2 className="font-display text-4xl text-text-dark mb-4">Dr. Lim&apos;s Training &amp; Certifications</h2>
+            <p className="font-body text-text-body text-lg max-w-2xl mx-auto">
+              Dr. Lim brings rigorous academic training and ongoing professional development to every patient visit.
+            </p>
+          </div>
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+            {[
+              {
+                icon: '🎓',
+                title: 'Doctor of Dental Surgery (DDS)',
+                desc: 'Dr. Lim earned her DDS degree and completed her advanced training with distinction, building the clinical foundation for over 14 years of dedicated children\'s dental practice.',
+              },
+              {
+                icon: '👶',
+                title: 'Pediatric Dental Specialization',
+                desc: 'Extensive postgraduate continuing education focused on children\'s dentistry, behavior management, and age-appropriate treatment techniques for patients of all developmental stages.',
+              },
+              {
+                icon: '💨',
+                title: 'Nitrous Oxide Sedation Certified',
+                desc: 'Certified in the safe administration of nitrous oxide (laughing gas) sedation, allowing anxious children to receive comfortable, stress-free dental care.',
+              },
+              {
+                icon: '🌟',
+                title: 'Special Needs Dentistry Training',
+                desc: 'Specialized training in providing compassionate, individualized dental care for children with physical, developmental, cognitive, and behavioral needs.',
+              },
+              {
+                icon: '🏥',
+                title: 'HUSKY Health Provider',
+                desc: 'Certified HUSKY Health (Connecticut Medicaid) provider, ensuring every Hartford family has access to quality children\'s dental care regardless of financial situation.',
+              },
+              {
+                icon: '📚',
+                title: 'Continuing Education',
+                desc: 'Active member of professional dental associations with a commitment to staying current on the latest advancements in children\'s dentistry, materials, and clinical techniques.',
+              },
+            ].map((cred) => (
+              <div key={cred.title} className="bg-white rounded-2xl p-8 border border-primary/10 hover:shadow-lg transition-shadow">
+                <div className="text-4xl mb-4">{cred.icon}</div>
+                <h3 className="font-display text-xl text-text-dark mb-3">{cred.title}</h3>
+                <p className="font-body text-text-body text-sm leading-relaxed">{cred.desc}</p>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* Life Outside the Office */}
+      <section className="py-20 bg-white">
+        <div className="max-w-7xl mx-auto px-4">
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-14 items-center">
+            <div>
+              <span className="label-text inline-block bg-secondary/10 text-secondary-dark font-semibold text-sm px-3 py-1 rounded-full mb-4">
+                Life Outside the Office
+              </span>
+              <h2 className="font-display text-4xl text-text-dark mb-6">The Adventurer Behind the Smile</h2>
+              <div className="font-body text-text-body leading-relaxed space-y-4 text-lg">
+                <p>
+                  When Dr. Lim isn&apos;t caring for Hartford&apos;s youngest smiles, she is chasing some of the world&apos;s highest peaks. An avid mountain climber, she has tackled challenging summits across multiple continents — pushing her limits and finding perspective among the clouds. She approaches each climb with the same patience and determination that defines her dental practice.
+                </p>
+                <p>
+                  Dr. Lim is also a passionate world traveler. From the temples of Southeast Asia to the markets of South America, she has explored dozens of countries, immersing herself in new cultures, cuisines, and communities. These experiences deepen her appreciation for Hartford&apos;s own rich diversity and fuel her genuine connection with families from all walks of life.
+                </p>
+                <p>
+                  Her adventurous spirit and global perspective make Dr. Lim not just an exceptional clinician, but a truly remarkable human being — and it shines through in every interaction with her patients and their families.
+                </p>
+              </div>
+              <div className="flex flex-wrap gap-3 mt-8">
+                {['⛰️ Mountain Climbing', '✈️ World Travel', '🌍 Cultural Explorer'].map((tag) => (
+                  <span
+                    key={tag}
+                    className="label-text text-sm bg-bg-pearl text-text-body font-semibold px-4 py-2 rounded-full border border-secondary/20"
+                  >
+                    {tag}
+                  </span>
+                ))}
+              </div>
+            </div>
+            <div className="relative h-[500px] rounded-3xl overflow-hidden shadow-2xl">
+              <Image
+                src="/dr-lim-2.jpg"
+                alt="Dr. Lim outside Tooth Time Dentistry Hartford CT"
+                fill
+                className="object-cover object-top"
               />
             </div>
           </div>
