@@ -33,7 +33,7 @@ export default function LocationPage() {
         </div>
 
         {/* Info + Map grid */}
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-10 items-start mb-12">
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-10 items-stretch mb-12">
 
           {/* Info card */}
           <div className="bg-bg-pearl rounded-2xl p-8 border border-primary/10 space-y-6">
@@ -97,7 +97,7 @@ export default function LocationPage() {
           </div>
 
           {/* Google Map */}
-          <div className="rounded-2xl overflow-hidden shadow-xl border border-primary/10 h-[420px]">
+          <div className="rounded-2xl overflow-hidden shadow-xl border border-primary/10 h-full min-h-[420px]">
             <iframe
               title="Tooth Time Dentistry – 1000 Albany Avenue Hartford CT"
               src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3000!2d-72.6974!3d41.7887!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89e65365b8e0a1b5%3A0x5e24d9c7e0c55f9e!2s1000%20Albany%20Ave%2C%20Hartford%2C%20CT%2006112!5e0!3m2!1sen!2sus!4v1700000000000"
