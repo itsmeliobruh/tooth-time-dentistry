@@ -22,7 +22,7 @@ const trustBadges = [
 
 export default function HeroSection() {
   return (
-    <section className="relative min-h-screen flex items-center bg-white overflow-hidden pt-20">
+    <section className="relative flex items-center bg-white overflow-hidden pt-20">
       {/* Radial gradient */}
       <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_top_right,_rgba(201,55,230,0.05)_0%,_transparent_60%)] pointer-events-none" />
 
