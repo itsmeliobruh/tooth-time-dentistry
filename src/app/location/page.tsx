@@ -24,6 +24,14 @@ export default function LocationPage() {
           </p>
         </div>
 
+        {/* Parking banner */}
+        <div className="flex items-center justify-center gap-3 bg-secondary/10 border border-secondary/20 rounded-2xl px-6 py-4 mb-10 max-w-sm mx-auto">
+          <span className="text-2xl">🅿️</span>
+          <p className="font-body font-semibold text-secondary-dark text-base">
+            Free private parking available on site
+          </p>
+        </div>
+
         {/* Info + Map grid */}
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-10 items-start mb-12">
 
