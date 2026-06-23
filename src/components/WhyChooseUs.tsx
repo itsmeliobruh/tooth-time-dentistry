@@ -7,7 +7,7 @@ const reasons = [
   {
     title: 'Husky Health & Insurance Accepted',
     body: 'We proudly accept HUSKY Health (Connecticut Medicaid), making quality pediatric dental care accessible to all Hartford families regardless of financial situation. We also work with Aetna, Cigna, Delta Dental, MetLife, and most major dental insurance plans. Our friendly front office team will help you understand your benefits and maximize your coverage. No family should go without dental care due to cost — call us today to verify your insurance.',
-    image: '/office-2.jpeg',
+    image: '/office-1.jpeg',
     imageAlt: 'Welcoming dental office front desk at Tooth Time Dentistry Hartford',
     direction: 'left' as const,
   },
