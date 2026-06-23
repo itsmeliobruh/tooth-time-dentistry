@@ -82,7 +82,7 @@ export default function HartfordPage() {
 
       {/* Hero */}
       <section className="bg-bg-pearl pt-32 pb-16">
-        <div className="max-w-4xl mx-auto px-4 text-center">
+        <div className="max-w-7xl mx-auto px-4 text-center">
           <span className="label-text inline-block bg-primary/10 text-primary font-semibold text-sm px-3 py-1 rounded-full mb-4">
             Hartford, Connecticut
           </span>

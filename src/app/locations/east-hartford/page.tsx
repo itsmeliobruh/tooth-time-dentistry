@@ -43,7 +43,7 @@ export default function EastHartfordPage() {
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }} />
 
       <section className="bg-bg-pearl pt-32 pb-16">
-        <div className="max-w-4xl mx-auto px-4 text-center">
+        <div className="max-w-7xl mx-auto px-4 text-center">
           <span className="label-text inline-block bg-primary/10 text-primary font-semibold text-sm px-3 py-1 rounded-full mb-4">East Hartford, CT</span>
           <h1 className="font-display text-5xl lg:text-6xl text-text-dark mb-6">
             Children&apos;s Dentist in East Hartford, CT | Tooth Time Dentistry
