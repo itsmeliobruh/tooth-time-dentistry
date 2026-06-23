@@ -155,6 +155,7 @@ export default function BloomfieldPage() {
                 </div>
               </div>
             </div>
+            <div className="flex flex-col">
             <div className="rounded-2xl overflow-hidden shadow-xl h-96">
               <iframe
                 title="Tooth Time Dentistry - Serving Bloomfield CT"
@@ -162,20 +163,16 @@ export default function BloomfieldPage() {
                 width="100%" height="100%" style={{ border: 0 }} allowFullScreen loading="lazy" referrerPolicy="no-referrer-when-downgrade"
               />
             </div>
+          <div className="mt-4 flex items-center justify-center gap-3 bg-secondary/10 border border-secondary/20 rounded-2xl px-6 py-4">
+              <span className="text-2xl">🅿️</span>
+              <p className="font-body font-semibold text-secondary-dark text-base">
+                Free private parking available on site
+              </p>
+            </div>
+          </div>
           </div>
         </div>
       </section>
-
-
-      {/* Parking Banner */}
-      <div className="max-w-5xl mx-auto px-4 pb-4">
-        <div className="flex items-center justify-center gap-3 bg-secondary/10 border border-secondary/20 rounded-2xl px-6 py-4 max-w-sm mx-auto">
-          <span className="text-2xl">🅿️</span>
-          <p className="font-body font-semibold text-secondary-dark text-base">
-            Free private parking available on site
-          </p>
-        </div>
-      </div>
 
       {/* FAQs */}
       <section className="py-20 bg-white">
