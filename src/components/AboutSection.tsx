@@ -22,7 +22,7 @@ export default function AboutSection() {
             </h2>
             <div className="font-body text-text-body leading-relaxed space-y-4 text-lg">
               <p>
-                For over 14 years, Tooth Time Dentistry has been a trusted partner in children&apos;s oral health throughout Hartford and the greater Connecticut area. Founded on the belief that every child deserves compassionate, fear-free dental care, our practice has grown into one of Hartford&apos;s most loved pediatric dental offices.
+                For over 14 years, Tooth Time Dentistry has been a trusted partner in children&apos;s oral health throughout Hartford and the greater Connecticut area. Founded on the belief that every child deserves compassionate, fear-free dental care, our practice has grown into one of Hartford&apos;s most loved children's dental offices.
               </p>
               <p>
                 Led by Dr. Lim — a specialist known for her extraordinary gentleness and genuine care for each patient — our team brings warmth, patience, and expertise to every appointment. Whether your child is coming in for their very first cleaning or needs more involved treatment, we take the time to explain everything clearly and ensure maximum comfort throughout.
