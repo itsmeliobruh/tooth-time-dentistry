@@ -57,6 +57,17 @@ export default function WestHartfordPage() {
         </div>
       </section>
 
+      {/* Parking Banner */}
+      <div className="max-w-5xl mx-auto px-4 pb-4">
+        <div className="flex items-center justify-center gap-3 bg-secondary/10 border border-secondary/20 rounded-2xl px-6 py-4 max-w-sm mx-auto">
+          <span className="text-2xl">🅿️</span>
+          <p className="font-body font-semibold text-secondary-dark text-base">
+            Free private parking available on site
+          </p>
+        </div>
+      </div>
+
+
       <section className="py-20 bg-white">
         <div className="max-w-7xl mx-auto px-4 grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
           <div>
