@@ -63,7 +63,14 @@ export default function Footer() {
           <div>
             <h3 className="font-display text-xl text-primary-light mb-4">Contact</h3>
             <address className="not-italic font-body text-gray-300 text-sm space-y-2">
-              <p>1000 Albany Avenue, STE 1<br />Hartford, CT 06112</p>
+              <a
+                href="https://maps.google.com/?q=1000+Albany+Avenue+STE+1+Hartford+CT+06112"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="hover:text-white transition-colors underline underline-offset-2"
+              >
+                1000 Albany Avenue, STE 1<br />Hartford, CT 06112
+              </a>
               <p>
                 <a href="tel:+18602637791" className="hover:text-primary-light transition-colors">
                   📞 (860) 263-7791
