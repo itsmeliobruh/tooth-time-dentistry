@@ -91,7 +91,7 @@ export default function WestHartfordPage() {
           <h2 className="font-display text-4xl text-text-dark mb-8 text-center">
             Pediatric Dentist Near Me — West Hartford to Hartford
           </h2>
-          <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-start">
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-stretch">
             <div>
               <div className="bg-white rounded-2xl p-6 border border-primary/10 mb-4">
                 <h3 className="font-display text-xl text-text-dark mb-3">Directions from West Hartford</h3>
@@ -101,8 +101,8 @@ export default function WestHartfordPage() {
                 </div>
               </div>
             </div>
-            <div className="flex flex-col">
-            <div className="rounded-2xl overflow-hidden shadow-xl h-96">
+            <div className="flex flex-col h-full">
+            <div className="rounded-2xl overflow-hidden shadow-xl flex-1 min-h-[300px]">
               <iframe title="Tooth Time Dentistry Map - West Hartford" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3000!2d-72.6974!3d41.7887!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89e65365b8e0a1b5%3A0x5e24d9c7e0c55f9e!2s1000%20Albany%20Ave%2C%20Hartford%2C%20CT%2006112!5e0!3m2!1sen!2sus!4v1700000000000" width="100%" height="100%" style={{ border: 0 }} allowFullScreen loading="lazy" referrerPolicy="no-referrer-when-downgrade" />
             </div>
           <a
