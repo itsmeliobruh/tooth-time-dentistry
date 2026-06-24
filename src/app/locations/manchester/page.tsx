@@ -105,7 +105,15 @@ export default function ManchesterPage() {
             <div className="rounded-2xl overflow-hidden shadow-xl h-96">
               <iframe title="Tooth Time Dentistry Map - Manchester" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3000!2d-72.6974!3d41.7887!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89e65365b8e0a1b5%3A0x5e24d9c7e0c55f9e!2s1000%20Albany%20Ave%2C%20Hartford%2C%20CT%2006112!5e0!3m2!1sen!2sus!4v1700000000000" width="100%" height="100%" style={{ border: 0 }} allowFullScreen loading="lazy" referrerPolicy="no-referrer-when-downgrade" />
             </div>
-          <div className="mt-4 flex items-center justify-center gap-3 bg-secondary/10 border border-secondary/20 rounded-2xl px-6 py-4">
+          <a
+            href="https://maps.google.com/?q=1000+Albany+Avenue+STE+1+Hartford+CT+06112"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="mt-4 flex items-center justify-center gap-2 bg-primary hover:bg-primary-dark text-white font-body font-bold px-6 py-4 rounded-2xl transition-colors text-base"
+          >
+            📍 Get Directions
+          </a>
+          <div className="mt-3 flex items-center justify-center gap-3 bg-secondary/10 border border-secondary/20 rounded-2xl px-6 py-4">
               <span className="text-2xl">🅿️</span>
               <p className="font-body font-semibold text-secondary-dark text-base">
                 Free private parking available on site

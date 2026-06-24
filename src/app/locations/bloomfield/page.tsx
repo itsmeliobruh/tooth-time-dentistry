@@ -163,7 +163,15 @@ export default function BloomfieldPage() {
                 width="100%" height="100%" style={{ border: 0 }} allowFullScreen loading="lazy" referrerPolicy="no-referrer-when-downgrade"
               />
             </div>
-          <div className="mt-4 flex items-center justify-center gap-3 bg-secondary/10 border border-secondary/20 rounded-2xl px-6 py-4">
+          <a
+            href="https://maps.google.com/?q=1000+Albany+Avenue+STE+1+Hartford+CT+06112"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="mt-4 flex items-center justify-center gap-2 bg-primary hover:bg-primary-dark text-white font-body font-bold px-6 py-4 rounded-2xl transition-colors text-base"
+          >
+            📍 Get Directions
+          </a>
+          <div className="mt-3 flex items-center justify-center gap-3 bg-secondary/10 border border-secondary/20 rounded-2xl px-6 py-4">
               <span className="text-2xl">🅿️</span>
               <p className="font-body font-semibold text-secondary-dark text-base">
                 Free private parking available on site
