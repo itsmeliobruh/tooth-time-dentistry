@@ -100,6 +100,17 @@ export default function NewBritainPage() {
                   <p><strong>Via Route 372:</strong> Head east on Route 372 from New Britain into Hartford. Continue to Albany Avenue area and our office at 1000 Albany Ave, Suite 1.</p>
                 </div>
               </div>
+              <div className="bg-white rounded-2xl p-6 border border-primary/10 mt-4">
+                <h3 className="font-display text-xl text-text-dark mb-3">Office Hours</h3>
+                <div className="font-body text-text-body space-y-1 text-sm">
+                  <p>Monday: 8AM – 5PM</p>
+                  <p>Tuesday: 8AM – 2PM</p>
+                  <p>Wednesday: 8AM – 5PM</p>
+                  <p>Thursday: Closed</p>
+                  <p>Friday: 8AM – 5PM</p>
+                  <p>Saturday – Sunday: Closed</p>
+                </div>
+              </div>
             </div>
             <div className="flex flex-col h-full">
             <div className="rounded-2xl overflow-hidden shadow-xl flex-1 min-h-[300px]">
