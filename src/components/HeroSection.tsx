@@ -114,13 +114,13 @@ export default function HeroSection() {
               <div className="absolute inset-0 bg-gradient-to-t from-primary/20 to-transparent" />
             </div>
             {/* Floating badge */}
-            <div className="absolute -bottom-12 left-4 lg:-left-5 bg-white rounded-2xl shadow-xl p-4 flex items-center gap-3">
-              <div className="bg-primary/10 rounded-xl p-3">
-                <span className="text-2xl">⭐</span>
+            <div className="absolute -bottom-16 left-4 lg:-bottom-12 lg:-left-5 bg-white rounded-2xl shadow-xl p-3 lg:p-4 flex items-center gap-2 lg:gap-3">
+              <div className="bg-primary/10 rounded-xl p-2 lg:p-3">
+                <span className="text-lg lg:text-2xl">⭐</span>
               </div>
               <div>
-                <p className="font-display text-text-dark text-lg leading-none">4.6 Stars</p>
-                <p className="font-body text-muted text-sm">228+ Google Reviews</p>
+                <p className="font-display text-text-dark text-base lg:text-lg leading-none">4.6 Stars</p>
+                <p className="font-body text-muted text-xs lg:text-sm">228+ Google Reviews</p>
               </div>
             </div>
           </motion.div>
