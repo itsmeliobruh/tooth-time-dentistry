@@ -114,7 +114,7 @@ export default function HeroSection() {
               <div className="absolute inset-0 bg-gradient-to-t from-primary/20 to-transparent" />
             </div>
             {/* Floating badge */}
-            <div className="absolute -bottom-5 right-4 bg-white rounded-2xl shadow-xl p-4 flex items-center gap-3">
+            <div className="absolute -bottom-10 -left-5 bg-white rounded-2xl shadow-xl p-4 flex items-center gap-3">
               <div className="bg-primary/10 rounded-xl p-3">
                 <span className="text-2xl">⭐</span>
               </div>
