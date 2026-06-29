@@ -39,7 +39,7 @@ export default function HeroSection() {
       <div className="absolute left-0 top-20 bottom-0 w-1.5 bg-gradient-to-b from-primary to-secondary" />
 
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 w-full py-16">
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+        <div className="grid grid-cols-1 lg:grid-cols-[5fr_7fr] gap-12 items-center">
           {/* Text content */}
           <motion.div
             variants={staggerContainer}
