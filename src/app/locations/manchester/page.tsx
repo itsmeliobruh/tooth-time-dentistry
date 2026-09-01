@@ -67,7 +67,7 @@ export default function ManchesterPage() {
                 Manchester, CT is a thriving community just east of Hartford, and many Manchester families have discovered that the short drive to Tooth Time Dentistry at 1000 Albany Avenue in Hartford is among the best decisions they have made for their children&apos;s oral health. Our office is easily accessible from Manchester via I-84 West or Route 44, typically taking just 10-15 minutes depending on traffic.
               </p>
               <p>
-                Manchester children receive the same exceptional, gentle care that has earned us 228+ five-star reviews. From first dental visits for Manchester toddlers to comprehensive care for Manchester teenagers, Dr. Lim and our team provide personalized, age-appropriate dental services at every stage of your child&apos;s development.
+                Manchester children receive the same exceptional, gentle care that has earned us 274+ five-star reviews. From first dental visits for Manchester toddlers to comprehensive care for Manchester teenagers, Dr. Lim and our team provide personalized, age-appropriate dental services at every stage of your child&apos;s development.
               </p>
               <p>
                 We understand that Manchester families lead busy lives, which is why we offer convenient weekday hours and a team that moves efficiently while never rushing your child&apos;s appointment. We also accept HUSKY Health for Manchester children enrolled in Connecticut Medicaid.

@@ -99,8 +99,8 @@ const dentistSchema = {
   hasMap: 'https://maps.google.com/?q=1000+Albany+Avenue+Hartford+CT+06112',
   aggregateRating: {
     '@type': 'AggregateRating',
-    ratingValue: '4.6',
-    reviewCount: '228',
+    ratingValue: '4.7',
+    reviewCount: '274',
   },
 }
 

@@ -32,7 +32,7 @@ const faqSchema = {
     { '@type': 'Question', name: "Why do West Hartford parents choose Tooth Time Dentistry?", acceptedAnswer: { '@type': 'Answer', text: 'West Hartford parents choose us for Dr. Lim\'s exceptional skill and gentleness, our special needs expertise, multilingual team (English, Spanish, Korean), and acceptance of HUSKY Health.' } },
     { '@type': 'Question', name: "Do you offer nitrous oxide for West Hartford children?", acceptedAnswer: { '@type': 'Answer', text: 'Yes! Nitrous oxide (laughing gas) is available for children from West Hartford and all communities we serve who experience dental anxiety or need help relaxing during procedures.' } },
     { '@type': 'Question', name: "Does Tooth Time Dentistry accept West Hartford children with HUSKY?", acceptedAnswer: { '@type': 'Answer', text: 'Absolutely. We accept HUSKY Health for West Hartford children, making quality pediatric dental care accessible regardless of financial situation.' } },
-    { '@type': 'Question', name: "What makes Tooth Time Dentistry the best children's dentist for West Hartford?", acceptedAnswer: { '@type': 'Answer', text: 'With 228+ five-star reviews, 14+ years of experience, specialized special needs training, a multilingual team, and true compassion for every patient — Tooth Time Dentistry stands apart.' } },
+    { '@type': 'Question', name: "What makes Tooth Time Dentistry the best children's dentist for West Hartford?", acceptedAnswer: { '@type': 'Answer', text: 'With 274+ five-star reviews, 14+ years of experience, specialized special needs training, a multilingual team, and true compassion for every patient — Tooth Time Dentistry stands apart.' } },
   ],
 }
 

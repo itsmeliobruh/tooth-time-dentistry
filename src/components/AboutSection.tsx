@@ -34,7 +34,7 @@ export default function AboutSection() {
                 Our multilingual team speaks English, Spanish, and Korean, reflecting our commitment to serving Hartford&apos;s wonderfully diverse community. We also proudly accept HUSKY Health (Connecticut Medicaid) and most major dental insurance plans, because financial barriers should never prevent a child from getting the care they need.
               </p>
               <p>
-                We offer nitrous oxide sedation for anxious children, making dental visits comfortable and even enjoyable. With 228+ five-star reviews and counting, Hartford families know they can trust Tooth Time Dentistry with their most precious smiles.
+                We offer nitrous oxide sedation for anxious children, making dental visits comfortable and even enjoyable. With 274+ five-star reviews and counting, Hartford families know they can trust Tooth Time Dentistry with their most precious smiles.
               </p>
             </div>
 

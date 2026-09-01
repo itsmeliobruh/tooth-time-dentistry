@@ -13,7 +13,7 @@ interface StatItem {
 const stats: StatItem[] = [
   { end: 14, suffix: '+', label: 'Years of Experience', icon: '🏆' },
   { end: 20, suffix: '+', label: 'Insurance Plans Accepted', icon: '✅' },
-  { end: 228, suffix: '', label: 'Google Reviews', icon: '⭐' },
+  { end: 274, suffix: '', label: 'Google Reviews', icon: '⭐' },
   { end: 100, suffix: '%', label: 'Kid-Friendly Environment', icon: '😊' },
 ]
 

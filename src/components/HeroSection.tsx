@@ -119,8 +119,8 @@ export default function HeroSection() {
                 <span className="text-lg lg:text-2xl">⭐</span>
               </div>
               <div>
-                <p className="font-display text-text-dark text-base lg:text-lg leading-none">4.6 Stars</p>
-                <p className="font-body text-muted text-xs lg:text-sm">228+ Google Reviews</p>
+                <p className="font-display text-text-dark text-base lg:text-lg leading-none">4.7 Stars</p>
+                <p className="font-body text-muted text-xs lg:text-sm">274+ Google Reviews</p>
               </div>
             </div>
           </motion.div>

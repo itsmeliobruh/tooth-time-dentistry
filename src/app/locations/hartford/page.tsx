@@ -114,7 +114,7 @@ export default function HartfordPage() {
                 Our multilingual team speaks English, Spanish, and Korean, making it easy for Hartford&apos;s diverse families to communicate comfortably about their children&apos;s dental health. We believe no Hartford family should face a language barrier when seeking dental care for their child.
               </p>
               <p>
-                Whether your child is visiting the dentist for the first time or is a longtime patient, our Hartford team will make every appointment a positive experience. With 228+ five-star reviews, Hartford parents know they can trust Tooth Time Dentistry.
+                Whether your child is visiting the dentist for the first time or is a longtime patient, our Hartford team will make every appointment a positive experience. With 274+ five-star reviews, Hartford parents know they can trust Tooth Time Dentistry.
               </p>
             </div>
             <a href="tel:+18602637791" className="inline-flex items-center gap-2 mt-6 bg-primary hover:bg-primary-dark text-white font-body font-bold px-6 py-3 rounded-full transition-colors">

@@ -65,7 +65,7 @@ export default function ReviewsCarousel() {
           </h2>
           <div className="flex items-center justify-center gap-2 mt-2">
             <span className="text-yellow-400 text-2xl">⭐⭐⭐⭐⭐</span>
-            <span className="label-text font-semibold text-text-body">4.6 Stars · 228 Reviews</span>
+            <span className="label-text font-semibold text-text-body">4.7 Stars · 274 Reviews</span>
           </div>
         </motion.div>
       </div>
