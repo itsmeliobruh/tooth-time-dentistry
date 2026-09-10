@@ -140,7 +140,7 @@ export default function Nav() {
             Location
           </Link>
           <Link href="/about" className="font-body font-semibold text-text-body hover:text-primary transition-colors">
-            About
+            The Dentist
           </Link>
           <Link href="/blog" className="font-body font-semibold text-text-body hover:text-primary transition-colors">
             Blog
