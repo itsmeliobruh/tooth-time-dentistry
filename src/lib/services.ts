@@ -178,7 +178,7 @@ export const services: Service[] = [
     metaTitle: 'Nitrous Oxide Sedation for Kids in Hartford, CT | Tooth Time Dentistry',
     metaDescription:
       'Safe laughing gas sedation for anxious children at Tooth Time Dentistry in Hartford, CT. Your child stays awake and comfortable. HUSKY accepted. Call (860) 263-7791.',
-    image: '/service-nitrous.png',
+    image: '/1767AB1F-A78E-4EDE-84EA-3E77290EBB95.PNG',
     imageAlt: 'Child relaxed with nitrous oxide mask at Tooth Time Dentistry Hartford CT',
     intro:
       'Dental anxiety is real — and at Tooth Time Dentistry in Hartford, CT, we take it seriously. Nitrous oxide (laughing gas) is the safest, most widely used sedation option in pediatric dentistry, helping children relax so they can receive the care they need comfortably and confidently.',
