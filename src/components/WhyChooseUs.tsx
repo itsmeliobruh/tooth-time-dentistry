@@ -21,7 +21,7 @@ const reasons = [
   {
     title: 'Special Needs Dental Expertise',
     body: "Dr. Lim and her team have dedicated years to developing specialized skills in treating children with physical, developmental, cognitive, and behavioral special needs. We understand that every child is different, and we take the time to develop individualized care plans that accommodate each patient's unique needs. Our office is equipped and our team is trained to provide a calm, supportive environment that helps special needs children receive the dental care they deserve — with dignity and compassion.",
-    image: '/service-special-needs.png',
+    image: '/1767AB1F-A78E-4EDE-84EA-3E77290EBB95.jpg',
     imageAlt: 'Parent and child receiving special needs dental care at Tooth Time Dentistry Hartford CT',
     direction: 'left' as const,
   },

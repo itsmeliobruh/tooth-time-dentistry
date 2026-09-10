@@ -216,7 +216,7 @@ export const services: Service[] = [
     metaTitle: 'Special Needs Pediatric Dentist in Hartford, CT | Tooth Time Dentistry',
     metaDescription:
       'Compassionate dental care for children with special needs in Hartford, CT. Tooth Time Dentistry has extensive experience with autism, Down syndrome, cerebral palsy & more. Call (860) 263-7791.',
-    image: '/service-special-needs.png',
+    image: '/1767AB1F-A78E-4EDE-84EA-3E77290EBB95.jpg',
     imageAlt: 'Parent and child receiving compassionate special needs dental care at Tooth Time Dentistry Hartford CT',
     intro:
       'Every child deserves excellent dental care. At Tooth Time Dentistry in Hartford, CT, Dr. Lim and her team have built a practice that truly welcomes children with physical, developmental, cognitive, and behavioral special needs — with the patience, skill, and compassion their care requires.',
