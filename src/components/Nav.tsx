@@ -211,7 +211,7 @@ export default function Nav() {
               </div>
 
               <Link href="/location" className="font-body font-semibold text-text-body py-2 border-t border-gray-100" onClick={() => setMenuOpen(false)}>Location</Link>
-              <Link href="/about" className="font-body font-semibold text-text-body py-2 border-b border-gray-100" onClick={() => setMenuOpen(false)}>About</Link>
+              <Link href="/about" className="font-body font-semibold text-text-body py-2 border-b border-gray-100" onClick={() => setMenuOpen(false)}>The Dentist</Link>
               <Link href="/blog" className="font-body font-semibold text-text-body py-2 border-b border-gray-100" onClick={() => setMenuOpen(false)}>Blog</Link>
               <a
                 href="tel:+18602637791"
