@@ -104,7 +104,7 @@ export default function HeroSection() {
           >
             <div className="relative rounded-3xl overflow-hidden shadow-2xl">
               <Image
-                src="/ChildrenHero.jpg"
+                src="/image0.png"
                 alt="Happy children smiling at Tooth Time Dentistry Hartford CT"
                 width={1254}
                 height={837}
