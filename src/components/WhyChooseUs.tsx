@@ -28,7 +28,7 @@ const reasons = [
   {
     title: 'Multilingual Team: English, Spanish & Korean',
     body: 'Hartford is a beautifully diverse city, and we believe language should never be a barrier to great dental care. Our team communicates fluently in English, Spanish, and Korean, so you can discuss your child\'s dental health in the language you\'re most comfortable with. This multilingual capability helps us better explain treatment plans, answer questions, and build the trust that is essential in a healthcare relationship. We serve Hartford\'s entire community — everyone is welcome at Tooth Time Dentistry.',
-    image: '/213493E3-D69B-412E-879B-A7783CA15CB0.PNG',
+    image: '/DEBBABF6-FE9A-4FD5-A93D-287D90184BC4.PNG',
     imageAlt: 'Happy child at Tooth Time Dentistry Hartford CT',
     direction: 'right' as const,
   },
