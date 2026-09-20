@@ -234,6 +234,30 @@ export default function AboutPage() {
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
             <div className="relative h-64 rounded-2xl overflow-hidden shadow-lg">
               <Image
+                src="/DSC04591-HDR.jpg"
+                alt="Tooth Time Dentistry reception Hartford CT"
+                fill
+                className="object-cover"
+              />
+            </div>
+            <div className="relative h-64 rounded-2xl overflow-hidden shadow-lg">
+              <Image
+                src="/DSC04575-HDR.jpg"
+                alt="Tooth Time Dentistry office interior Hartford CT"
+                fill
+                className="object-cover"
+              />
+            </div>
+            <div className="relative h-64 rounded-2xl overflow-hidden shadow-lg">
+              <Image
+                src="/DSC04564-HDR.jpg"
+                alt="Tooth Time Dentistry office Hartford CT"
+                fill
+                className="object-cover"
+              />
+            </div>
+            <div className="relative h-64 rounded-2xl overflow-hidden shadow-lg">
+              <Image
                 src="/office-2.jpeg"
                 alt="Tooth Time Dentistry office interior Hartford CT"
                 fill
