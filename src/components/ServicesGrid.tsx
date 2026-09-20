@@ -62,7 +62,7 @@ export default function ServicesGrid() {
             What We Offer
           </span>
           <h2 className="font-display text-4xl lg:text-5xl text-text-dark mb-4">
-            Pediatric Dental Services in Hartford, CT
+            Our Pediatric Dental Services in Hartford, CT
           </h2>
           <p className="font-body text-text-body text-lg max-w-2xl mx-auto">
             From routine cleanings to specialized care, we offer a full range of dental services designed with children&apos;s comfort and health in mind.
