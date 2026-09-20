@@ -91,8 +91,8 @@ export default function HomePage() {
       <HeroSection />
       <StatsBar />
       <AboutSection />
-      <ServicesGrid />
       <WhyChooseUs />
+      <ServicesGrid />
       <ReviewsCarousel />
       <ServiceAreas />
       <SocialSection />
