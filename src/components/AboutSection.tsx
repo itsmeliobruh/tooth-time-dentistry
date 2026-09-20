@@ -100,7 +100,7 @@ export default function AboutSection() {
             className="relative h-[500px] rounded-3xl overflow-hidden shadow-2xl"
           >
             <Image
-              src="/office-1.jpeg"
+              src="/DSC04596-HDR.jpg"
               alt="Parent and child at Tooth Time Dentistry in Hartford CT"
               fill
               className="object-cover"
