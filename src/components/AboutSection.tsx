@@ -40,7 +40,7 @@ export default function AboutSection() {
             viewport={{ once: true }}
             transition={{ duration: 0.6 }}
           >
-            <span className="label-text inline-block bg-secondary/10 text-secondary-dark font-semibold text-sm px-3 py-1 rounded-full mb-4">
+            <span className="label-text inline-block bg-secondary/10 text-secondary-dark font-semibold text-base px-4 py-1.5 rounded-full mb-4">
               About Tooth Time Dentistry
             </span>
             <h2 className="font-display text-4xl lg:text-5xl text-text-dark mb-4">

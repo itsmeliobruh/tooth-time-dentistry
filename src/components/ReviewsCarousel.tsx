@@ -57,7 +57,7 @@ export default function ReviewsCarousel() {
           transition={{ duration: 0.5 }}
           className="text-center"
         >
-          <span className="label-text inline-block bg-primary/10 text-primary font-semibold text-sm px-3 py-1 rounded-full mb-3">
+          <span className="label-text inline-block bg-primary/10 text-primary font-semibold text-base px-4 py-1.5 rounded-full mb-3">
             Real Patient Reviews
           </span>
           <h2 className="font-display text-4xl lg:text-5xl text-text-dark mb-3">

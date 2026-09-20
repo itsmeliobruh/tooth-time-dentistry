@@ -48,7 +48,7 @@ export default function HeroSection() {
             className="pl-4"
           >
             <motion.div variants={fadeInUp}>
-              <span className="label-text inline-block bg-primary/10 text-primary font-semibold text-sm px-3 py-1 rounded-full mb-4">
+              <span className="label-text inline-block bg-primary/10 text-primary font-semibold text-base px-4 py-1.5 rounded-full mb-4">
                 Hartford&apos;s Pediatric Dental Team
               </span>
             </motion.div>

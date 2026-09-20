@@ -58,7 +58,7 @@ export default function ServicesGrid() {
           transition={{ duration: 0.5 }}
           className="text-center mb-12"
         >
-          <span className="label-text inline-block bg-secondary/10 text-secondary-dark font-semibold text-sm px-3 py-1 rounded-full mb-3">
+          <span className="label-text inline-block bg-secondary/10 text-secondary-dark font-semibold text-base px-4 py-1.5 rounded-full mb-3">
             What We Offer
           </span>
           <h2 className="font-display text-4xl lg:text-5xl text-text-dark mb-4">
