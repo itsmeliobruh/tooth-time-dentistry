@@ -2,7 +2,13 @@
 
 import Image from 'next/image'
 import { motion } from 'framer-motion'
-import { useState } from 'react'
+import { useState, useEffect } from 'react'
+
+const slides = [
+  '/DSC04591-HDR.jpg',
+  '/DSC04575-HDR.jpg',
+  '/DSC04564-HDR.jpg',
+]
 
 const items = [
   {
@@ -29,6 +35,14 @@ const items = [
 
 export default function AboutSection() {
   const [open, setOpen] = useState<number | null>(0)
+  const [slide, setSlide] = useState(0)
+
+  useEffect(() => {
+    const timer = setInterval(() => {
+      setSlide((s) => (s + 1) % slides.length)
+    }, 4000)
+    return () => clearInterval(timer)
+  }, [])
 
   return (
     <section className="py-20 bg-white">
@@ -99,13 +113,31 @@ export default function AboutSection() {
             transition={{ duration: 0.6 }}
             className="relative h-[500px] rounded-3xl overflow-hidden shadow-2xl"
           >
-            <Image
-              src="/DSC04596-HDR.jpg"
-              alt="Parent and child at Tooth Time Dentistry in Hartford CT"
-              fill
-              className="object-cover"
-            />
+            {slides.map((src, i) => (
+              <div
+                key={src}
+                className="absolute inset-0 transition-opacity duration-1000"
+                style={{ opacity: slide === i ? 1 : 0 }}
+              >
+                <Image
+                  src={src}
+                  alt="Tooth Time Dentistry office in Hartford CT"
+                  fill
+                  className="object-cover"
+                />
+              </div>
+            ))}
             <div className="absolute inset-0 bg-gradient-to-t from-primary/10 to-transparent" />
+            {/* Dots */}
+            <div className="absolute bottom-4 left-0 right-0 flex justify-center gap-2 z-10">
+              {slides.map((_, i) => (
+                <button
+                  key={i}
+                  onClick={() => setSlide(i)}
+                  className={`w-2 h-2 rounded-full transition-all duration-300 ${slide === i ? 'bg-white scale-125' : 'bg-white/50'}`}
+                />
+              ))}
+            </div>
           </motion.div>
         </div>
       </div>
