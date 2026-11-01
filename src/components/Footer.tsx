@@ -33,7 +33,7 @@ export default function Footer() {
               <li>Dental X-Rays</li>
               <li>Tooth Fillings</li>
               <li>Tooth Extractions</li>
-              <li>Nitrous Oxide Sedation</li>
+              <li>Laughing Gas</li>
               <li>Special Needs Dentistry</li>
             </ul>
           </div>

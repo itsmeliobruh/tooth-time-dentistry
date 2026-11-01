@@ -30,7 +30,7 @@ const faqSchema = {
   mainEntity: [
     { '@type': 'Question', name: "How do West Hartford families get to Tooth Time Dentistry?", acceptedAnswer: { '@type': 'Answer', text: 'West Hartford families can reach our Hartford office in about 10 minutes via Albany Avenue heading east. Our office is at 1000 Albany Avenue, Suite 1, Hartford, CT 06112.' } },
     { '@type': 'Question', name: "Why do West Hartford parents choose Tooth Time Dentistry?", acceptedAnswer: { '@type': 'Answer', text: 'West Hartford parents choose us for Dr. Lim\'s exceptional skill and gentleness, our special needs expertise, multilingual team (English, Spanish, Korean), and acceptance of HUSKY Health.' } },
-    { '@type': 'Question', name: "Do you offer nitrous oxide for West Hartford children?", acceptedAnswer: { '@type': 'Answer', text: 'Yes! Nitrous oxide (laughing gas) is available for children from West Hartford and all communities we serve who experience dental anxiety or need help relaxing during procedures.' } },
+    { '@type': 'Question', name: "Do you offer laughing gas for West Hartford children?", acceptedAnswer: { '@type': 'Answer', text: 'Yes! Laughing gas (nitrous oxide) is available for children from West Hartford and all communities we serve who experience dental anxiety or need help relaxing during procedures.' } },
     { '@type': 'Question', name: "Does Tooth Time Dentistry accept West Hartford children with HUSKY?", acceptedAnswer: { '@type': 'Answer', text: 'Absolutely. We accept HUSKY Health for West Hartford children, making quality pediatric dental care accessible regardless of financial situation.' } },
     { '@type': 'Question', name: "What makes Tooth Time Dentistry the best children's dentist for West Hartford?", acceptedAnswer: { '@type': 'Answer', text: 'With 274+ five-star reviews, 14+ years of experience, specialized special needs training, a multilingual team, and true compassion for every patient — Tooth Time Dentistry stands apart.' } },
   ],
@@ -70,7 +70,7 @@ export default function WestHartfordPage() {
                 Dr. Lim&apos;s reputation among West Hartford parents is built on her exceptional clinical skill, her extraordinary patience with children, and her ability to make even the most nervous child feel completely comfortable. West Hartford parents consistently describe their children asking to return to the dentist — which speaks volumes about the experience we create.
               </p>
               <p>
-                We offer West Hartford families the full range of pediatric dental services, including preventive cleanings, dental X-rays, tooth-colored fillings, extractions, nitrous oxide sedation, and specialized care for children with special needs. Our multilingual team also serves West Hartford&apos;s Spanish-speaking and Korean-speaking families.
+                We offer West Hartford families the full range of pediatric dental services, including preventive cleanings, dental X-rays, tooth-colored fillings, extractions, laughing gas (nitrous oxide), and specialized care for children with special needs. Our multilingual team also serves West Hartford&apos;s Spanish-speaking and Korean-speaking families.
               </p>
               <p>
                 HUSKY Health accepted. All major insurance plans accepted. West Hartford families are always welcome at Tooth Time Dentistry. Call us today to schedule.

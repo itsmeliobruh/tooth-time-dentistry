@@ -20,7 +20,7 @@ const services = [
     icon: '✨',
     title: 'Tooth Fillings',
     description:
-      'When cavities occur, our tooth-colored composite fillings restore teeth naturally and comfortably. We use gentle techniques and can offer nitrous oxide to keep anxious children at ease.',
+      'When cavities occur, our tooth-colored composite fillings restore teeth naturally and comfortably. We use gentle techniques and can offer laughing gas (nitrous oxide) to keep anxious children at ease.',
   },
   {
     icon: '🔧',
@@ -30,7 +30,7 @@ const services = [
   },
   {
     icon: '😊',
-    title: 'Nitrous Oxide',
+    title: 'Laughing Gas',
     description:
       'Laughing gas is a safe, effective way to help anxious children relax during dental procedures. It wears off quickly, and your child will be back to their normal self within minutes.',
   },

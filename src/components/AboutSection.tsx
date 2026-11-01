@@ -23,8 +23,8 @@ const items = [
   },
   {
     icon: '😮‍💨',
-    title: 'Nitrous Oxide & Comfort',
-    body: "We offer nitrous oxide sedation for anxious children, making dental visits comfortable and even enjoyable. With 274+ five-star reviews and counting, Hartford families know they can trust Tooth Time Dentistry with their most precious smiles.",
+    title: 'Laughing Gas & Comfort',
+    body: "We offer laughing gas (nitrous oxide) for anxious children, making dental visits comfortable and even enjoyable. With 274+ five-star reviews and counting, Hartford families know they can trust Tooth Time Dentistry with their most precious smiles.",
   },
   {
     icon: '🦷',

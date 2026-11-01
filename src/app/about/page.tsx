@@ -119,8 +119,8 @@ export default function AboutPage() {
               },
               {
                 icon: '💨',
-                title: 'Nitrous Oxide Sedation Certified',
-                desc: 'Certified in the safe administration of nitrous oxide (laughing gas) sedation, allowing anxious children to receive comfortable, stress-free dental care.',
+                title: 'Laughing Gas (Nitrous Oxide) Certified',
+                desc: 'Certified in the safe administration of laughing gas (nitrous oxide), allowing anxious children to receive comfortable, stress-free dental care.',
               },
               {
                 icon: '🌟',
@@ -295,7 +295,7 @@ export default function AboutPage() {
               { icon: '💙', title: 'HUSKY Health Accepted', desc: 'Making dental care accessible to every Hartford family regardless of financial situation.' },
               { icon: '💜', title: 'Special Needs Expertise', desc: 'Specialized training and compassionate approaches for children with complex needs.' },
               { icon: '🌍', title: 'Multilingual Team', desc: 'English, Spanish, and Korean spoken — serving Hartford\'s diverse community.' },
-              { icon: '😊', title: 'Anxiety-Free Care', desc: 'Nitrous oxide, gentle techniques, and patient-paced appointments for nervous children.' },
+              { icon: '😊', title: 'Anxiety-Free Care', desc: 'Laughing gas (nitrous oxide), gentle techniques, and patient-paced appointments for nervous children.' },
             ].map((val) => (
               <div key={val.title} className="bg-white rounded-2xl p-8 text-center border border-primary/10 hover:shadow-lg transition-shadow">
                 <div className="text-4xl mb-4">{val.icon}</div>

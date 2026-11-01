@@ -52,7 +52,7 @@ const faqSchema = {
       name: 'What pediatric dental services are available for Bloomfield children?',
       acceptedAnswer: {
         '@type': 'Answer',
-        text: 'We offer preventive cleanings, dental X-rays, tooth fillings, extractions, nitrous oxide sedation, and specialized care for children with special needs — all available to Bloomfield families.',
+        text: 'We offer preventive cleanings, dental X-rays, tooth fillings, extractions, laughing gas (nitrous oxide), and specialized care for children with special needs — all available to Bloomfield families.',
       },
     },
     {
@@ -100,7 +100,7 @@ export default function BloomfieldPage() {
                 Bloomfield is one of Hartford&apos;s closest neighbors, and Tooth Time Dentistry has been a trusted resource for Bloomfield families seeking exceptional pediatric dental care. Our office at 1000 Albany Avenue, Suite 1 in Hartford is just a short drive from Bloomfield — making it one of the most convenient options for quality children&apos;s dentistry in the area.
               </p>
               <p>
-                Bloomfield children receive the same compassionate, thorough care as all of our patients. From a child&apos;s very first dental visit to their teenage years, we provide preventive cleanings, digital X-rays, tooth-colored fillings, gentle extractions, and nitrous oxide sedation for anxious patients.
+                Bloomfield children receive the same compassionate, thorough care as all of our patients. From a child&apos;s very first dental visit to their teenage years, we provide preventive cleanings, digital X-rays, tooth-colored fillings, gentle extractions, and laughing gas (nitrous oxide) for anxious patients.
               </p>
               <p>
                 We are proud to accept HUSKY Health for Bloomfield children, ensuring that cost is never a barrier to receiving high-quality dental care. We also work with most major private insurance plans and welcome self-pay families.

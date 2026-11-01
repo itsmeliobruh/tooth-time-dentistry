@@ -6,7 +6,7 @@ import CTASection from '@/components/CTASection'
 export const metadata: Metadata = {
   title: 'Pediatric Dental Services in Hartford, CT | Tooth Time Dentistry',
   description:
-    'Full-range pediatric dental services at Tooth Time Dentistry in Hartford, CT — cleanings, fillings, X-rays, extractions, nitrous oxide & special needs care. HUSKY accepted. Call (860) 263-7791.',
+    'Full-range pediatric dental services at Tooth Time Dentistry in Hartford, CT — cleanings, fillings, X-rays, extractions, laughing gas & special needs care. HUSKY accepted. Call (860) 263-7791.',
   alternates: { canonical: 'https://toothtimect.com/services' },
   openGraph: {
     title: 'Pediatric Dental Services in Hartford, CT | Tooth Time Dentistry',

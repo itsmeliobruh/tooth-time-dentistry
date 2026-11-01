@@ -10,7 +10,7 @@ const navServices = [
   { label: 'Dental X-Rays', href: '/services/dental-x-rays' },
   { label: 'Tooth Fillings', href: '/services/tooth-fillings' },
   { label: 'Tooth Extractions', href: '/services/tooth-extractions' },
-  { label: 'Nitrous Oxide', href: '/services/nitrous-oxide' },
+  { label: 'Laughing Gas', href: '/services/nitrous-oxide' },
   { label: 'Special Needs Dentistry', href: '/services/special-needs-dentistry' },
 ]
 

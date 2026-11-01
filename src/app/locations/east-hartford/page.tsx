@@ -31,7 +31,7 @@ const faqSchema = {
     { '@type': 'Question', name: "How far is Tooth Time Dentistry from East Hartford?", acceptedAnswer: { '@type': 'Answer', text: 'Our office at 1000 Albany Avenue in Hartford is just minutes from East Hartford, across the Connecticut River via the Connecticut Blvd or Silver Lane bridge.' } },
     { '@type': 'Question', name: "Do you accept HUSKY Health from East Hartford children?", acceptedAnswer: { '@type': 'Answer', text: 'Yes! We gladly accept HUSKY Health for children from East Hartford and all surrounding communities.' } },
     { '@type': 'Question', name: "Is there parking at your office for East Hartford patients?", acceptedAnswer: { '@type': 'Answer', text: 'Yes, our office at 1000 Albany Avenue, Hartford has ample free parking for all patients including those traveling from East Hartford.' } },
-    { '@type': 'Question', name: "What services do East Hartford families use most often?", acceptedAnswer: { '@type': 'Answer', text: 'East Hartford families come to us for preventive cleanings, cavity fillings, nitrous oxide sedation, and our specialized special needs dentistry program.' } },
+    { '@type': 'Question', name: "What services do East Hartford families use most often?", acceptedAnswer: { '@type': 'Answer', text: 'East Hartford families come to us for preventive cleanings, cavity fillings, laughing gas (nitrous oxide), and our specialized special needs dentistry program.' } },
     { '@type': 'Question', name: "Do you speak Spanish for East Hartford patients?", acceptedAnswer: { '@type': 'Answer', text: 'Yes! Our team is fluent in English, Spanish, and Korean, making us a great fit for East Hartford\'s diverse community.' } },
   ],
 }

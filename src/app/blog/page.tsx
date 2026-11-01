@@ -53,7 +53,7 @@ const posts = [
   },
   {
     title: "Laughing Gas at the Dentist: What Hartford Parents Need to Know",
-    excerpt: "Nitrous oxide is safe, effective, and can transform a scary dental visit into a calm experience. We answer the most common questions Hartford parents have about laughing gas for children.",
+    excerpt: "Laughing gas (nitrous oxide) is safe, effective, and can transform a scary dental visit into a calm experience. We answer the most common questions Hartford parents have about laughing gas for children.",
     category: "Sedation",
     readTime: "5 min read",
     icon: "😊",

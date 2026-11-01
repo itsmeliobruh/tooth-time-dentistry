@@ -14,11 +14,11 @@ const faqs = [
   },
   {
     q: 'What should I do if my child is afraid of the dentist?',
-    a: "Dental anxiety in children is very common and completely normal. Our entire team is trained to create a calm, welcoming environment that puts nervous kids at ease. We explain everything in child-friendly language, go at your child's pace, and offer nitrous oxide (laughing gas) for children who need a little extra help relaxing. We also encourage parents to stay with their child during the exam. Please let us know about any anxiety beforehand so we can prepare appropriately.",
+    a: "Dental anxiety in children is very common and completely normal. Our entire team is trained to create a calm, welcoming environment that puts nervous kids at ease. We explain everything in child-friendly language, go at your child's pace, and offer laughing gas (nitrous oxide) for children who need a little extra help relaxing. We also encourage parents to stay with their child during the exam. Please let us know about any anxiety beforehand so we can prepare appropriately.",
   },
   {
-    q: 'Do you offer nitrous oxide (laughing gas) for children?',
-    a: "Yes, we offer nitrous oxide sedation for children who experience dental anxiety or require more involved procedures. Nitrous oxide is extremely safe, has been used in dentistry for over 150 years, and is specifically approved for pediatric use. It helps children relax without putting them to sleep, and the effects wear off within minutes of removing the mask. Your child will be able to leave our office and resume normal activities immediately.",
+    q: 'Do you offer laughing gas (nitrous oxide) for children?',
+    a: "Yes, we offer laughing gas for children who experience dental anxiety or require more involved procedures. Laughing gas is extremely safe, has been used in dentistry for over 150 years, and is specifically approved for pediatric use. It helps children relax without putting them to sleep, and the effects wear off within minutes of removing the mask. Your child will be able to leave our office and resume normal activities immediately.",
   },
   {
     q: 'Can you treat children with special needs?',

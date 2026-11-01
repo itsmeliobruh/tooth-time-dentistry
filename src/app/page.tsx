@@ -14,7 +14,7 @@ import CTASection from '@/components/CTASection'
 export const metadata: Metadata = {
   title: "Children's Dentist in Hartford, CT | Tooth Time Dentistry",
   description:
-    "Tooth Time Dentistry — gentle pediatric dental care in Hartford, CT. HUSKY Health accepted, special needs welcome, nitrous oxide available. Call (860) 263-7791.",
+    "Tooth Time Dentistry — gentle pediatric dental care in Hartford, CT. HUSKY Health accepted, special needs welcome, laughing gas (nitrous oxide) available. Call (860) 263-7791.",
   alternates: {
     canonical: 'https://toothtimect.com',
   },
@@ -56,10 +56,10 @@ const faqSchema = {
     },
     {
       '@type': 'Question',
-      name: 'Do you offer nitrous oxide (laughing gas) for children?',
+      name: 'Do you offer laughing gas (nitrous oxide) for children?',
       acceptedAnswer: {
         '@type': 'Answer',
-        text: 'Yes, we offer nitrous oxide sedation for children who experience dental anxiety or require more involved procedures. It is safe and wears off within minutes.',
+        text: 'Yes, we offer laughing gas for children who experience dental anxiety or require more involved procedures. It is safe and wears off within minutes.',
       },
     },
     {

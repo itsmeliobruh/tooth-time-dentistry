@@ -5,7 +5,7 @@ import CTASection from '@/components/CTASection'
 export const metadata: Metadata = {
   title: "Children's Dentist in Hartford, CT | Tooth Time Dentistry",
   description:
-    "Top-rated pediatric dentist serving Hartford, CT families. HUSKY Health accepted, special needs care, nitrous oxide. 1000 Albany Ave. Call (860) 263-7791.",
+    "Top-rated pediatric dentist serving Hartford, CT families. HUSKY Health accepted, special needs care, laughing gas (nitrous oxide). 1000 Albany Ave. Call (860) 263-7791.",
   alternates: {
     canonical: 'https://toothtimect.com/locations/hartford',
   },
