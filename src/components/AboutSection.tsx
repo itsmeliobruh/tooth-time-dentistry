@@ -12,11 +12,6 @@ const slides = [
 
 const items = [
   {
-    icon: '🦷',
-    title: 'Led by Dr. Lim',
-    body: "Known for her extraordinary gentleness and genuine care for each patient, Dr. Lim brings warmth, patience, and expertise to every appointment. Whether your child is coming in for their very first cleaning or needs more involved treatment, we take the time to explain everything clearly and ensure maximum comfort throughout.",
-  },
-  {
     icon: '🌟',
     title: 'Special Needs Care',
     body: "We specialize in caring for children with special needs, including physical, developmental, cognitive, and behavioral conditions. We believe these children deserve excellent dental care just as much as any other patient, and we have the training and experience to deliver it.",
@@ -30,6 +25,11 @@ const items = [
     icon: '😮‍💨',
     title: 'Nitrous Oxide & Comfort',
     body: "We offer nitrous oxide sedation for anxious children, making dental visits comfortable and even enjoyable. With 274+ five-star reviews and counting, Hartford families know they can trust Tooth Time Dentistry with their most precious smiles.",
+  },
+  {
+    icon: '🦷',
+    title: 'Led by Dr. Lim',
+    body: "Known for her extraordinary gentleness and genuine care for each patient, Dr. Lim brings warmth, patience, and expertise to every appointment. Whether your child is coming in for their very first cleaning or needs more involved treatment, we take the time to explain everything clearly and ensure maximum comfort throughout.",
   },
 ]
 
