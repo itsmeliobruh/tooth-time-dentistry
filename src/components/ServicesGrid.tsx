@@ -8,7 +8,7 @@ const services = [
     icon: '🦷',
     title: 'Preventive Cleanings',
     description:
-      'Regular professional cleanings are the foundation of great oral health. Our gentle hygienists make every visit comfortable for your child, removing plaque and tartar while teaching proper brushing habits.',
+      'Regular professional cleanings are the foundation of great oral health. We make every visit comfortable for your child, removing plaque and tartar while teaching proper brushing habits.',
   },
   {
     icon: '🔬',
@@ -26,7 +26,7 @@ const services = [
     icon: '🔧',
     title: 'Tooth Extractions',
     description:
-      'When a tooth needs to be removed — whether a stubborn baby tooth or a damaged permanent tooth — our team performs extractions with compassion and care to minimize discomfort.',
+      'When a stubborn baby tooth needs to be removed, our team performs extractions with compassion and care to minimize discomfort.',
   },
   {
     icon: '😊',
