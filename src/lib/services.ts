@@ -31,7 +31,7 @@ export const services: Service[] = [
     intro:
       'Preventive dental care is the foundation of a lifetime of healthy smiles. At Tooth Time Dentistry in Hartford, CT, our gentle cleanings and thorough exams help your child stay cavity-free — and make every visit something they look forward to.',
     paragraphs: [
-      'During each routine cleaning, our experienced hygienists carefully remove plaque and tartar from all surfaces of your child\'s teeth — including areas that brushing and flossing at home can\'t fully reach. We follow up with a gentle polish that leaves teeth smooth, clean, and bright.',
+      'During each routine cleaning, we carefully remove plaque and tartar from all surfaces of your child\'s teeth — including areas that brushing and flossing at home can\'t fully reach. We follow up with a gentle polish that leaves teeth smooth, clean, and bright.',
       'Dr. Lim performs a comprehensive exam at each visit, checking for early signs of cavities, gum disease, bite problems, and developmental concerns. Catching issues early is always easier, faster, and less costly than treating them once they progress.',
       'For children with a higher risk of cavities, we may recommend fluoride treatments and dental sealants — thin protective coatings applied painlessly to the grooves of back molars where most cavities in kids form. Both treatments are quick, comfortable, and highly effective.',
       'We also take time to teach your child age-appropriate brushing and flossing skills, and we coach parents on diet habits and products that help protect young teeth at home.',
